@@ -21,14 +21,14 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss           |  funktionale   | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
-| 2  |                 |      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
+| 2  |    kann             |      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
 |3|muss|funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
 |  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |           muss      |  funtional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
 |  6  |        muss      |   funtional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
-|  7  |                 |      | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
+|  7  |     kann            |      | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
 |  8  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
-|  9  |                 |      | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
+|  9  |       muss          |      | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
 |  10  |                 |      |                                    |
 |    |                 |      |                                    |
 |    |                 |      |                                    |
