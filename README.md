@@ -1,7 +1,7 @@
 # LA1200
+HAHA LOL XD
 
-
-Team Racoon
+Team Racoon 
 Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | Datum | Version | Zusammenfassung                                              |
