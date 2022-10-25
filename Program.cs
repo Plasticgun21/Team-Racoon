@@ -11,7 +11,14 @@ namespace VociTrainerLA1200
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Intro();
+
+
+        }
+
+        static void Intro()
+        {
+            Console.WriteLine("Intro Text");
         }
     }
 }
