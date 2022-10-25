@@ -8,7 +8,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Gaggi arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 |       | ...     |                                                              |
-|       | 1.0.0   |                                                            |
+|       | 1.0.0   |          hallo                                                    |
 
 ## 1 Informieren
 
@@ -21,10 +21,9 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss           |  funktionale   | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
-| 2  |                 |      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit der schwierigsten Wörter beginnen muss         |
+| 2  |                 |      |        Hallo SIda                            |
 |3|muss|funktional|Als Benutzer möchte ich das meine Spielstände gespeichert werden, damit ich die Wörter die ich nicht konnte wieder lernen kann.|
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
-|  4  |                 |      |                                    |
+|  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |                 |      |                                    |
 |  6  |                 |      |                                    |
 |  7  |                 |      |                                    |
