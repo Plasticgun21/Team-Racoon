@@ -1,5 +1,5 @@
 # LA1200
-HAHA LOL XD
+HAHA LOL XD SUS
 
 Team Racoon 
 Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
