@@ -47,11 +47,11 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | 2.1  |   Programm gestartet und Sprache gewählt           |  Schwierigkeitsgrad       |   Schwierigkeit gespeichert                |
 | 3.1  |   Programm gestartet und Sprache, Schwierigkeitsgrad gewählt           |  23       |     Falsch. wurde gespeichert              |
 | 4.1  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
+| 5.1  |              |         |                   |
+| 6.1  |              |         |                   |
+| 7.1  |              |         |                   |
+| 8.1  |              |         |                   |
+| 9.1  |              |         |                   |
 | ...  |              |         |                   |
 | ...  |              |         |                   |
 | ...  |              |         |                   |
