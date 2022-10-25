@@ -27,7 +27,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 |  5  |           muss      |  funtional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
 |  6  |        muss      |   funtional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
 |  7  |                 |      |                                    |
-|  8  |                 |      |                                    |
+|  8  |          kann       |   funtional   |       Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                             |
 |  9  |                 |      |                                    |
 |  10  |                 |      |                                    |
 |    |                 |      |                                    |
