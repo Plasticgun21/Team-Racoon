@@ -1,5 +1,5 @@
 # LA1200
-HAHA LOL XD SUS
+
 
 Team Racoon 
 Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
@@ -8,25 +8,24 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Gaggi arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 |       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|       | 1.0.0   |                          sida                             |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+![Projektbeschreibung](https://youtu.be/dQw4w9WgXcQ)
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss           |  funktionale   | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
-| 2  |                 |      |        Hallo SIda                            |
-|3|muss|funktional|Als Benutzer möchte ich das meine Spielstände gespeichert werden, damit ich die Wörter die ich nicht konnte wieder lernen kann.|
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
-|  4  |                 |      |                                    |
-|  5  |                 |      |                                    |
-|  6  |                 |      |                                    |
+| 2  |                 |      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
+|3|muss|funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
+|  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
+|  5  |           muss      |  funtional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
+|  6  |        muss      |   funtional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
 |  7  |                 |      |                                    |
 |  8  |                 |      |                                    |
 |  9  |                 |      |                                    |
@@ -117,4 +116,4 @@ Total:
 
 ## 6 Auswerten
  
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein..
