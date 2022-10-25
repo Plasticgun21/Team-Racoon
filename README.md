@@ -25,7 +25,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 |3|muss|funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
 |  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |           muss      |  funtional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
-|  6  |                 |      |                                    |
+|  6  |        muss      |   funtional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
 |  7  |                 |      |                                    |
 |  8  |                 |      |                                    |
 |  9  |                 |      |                                    |
