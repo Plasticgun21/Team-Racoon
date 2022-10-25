@@ -8,7 +8,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Gaggi arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 |       | ...     |                                                              |
-|       | 1.0.0   |                                                       |
+|       | 1.0.0   |                          sida                             |
 
 ## 1 Informieren
 
