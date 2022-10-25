@@ -12,13 +12,18 @@ namespace VociTrainerLA1200
         static void Main(string[] args)
         {
             Intro();
-
+            Console.WriteLine(Program.Einlesen);
 
         }
 
         static void Intro()
         {
             Console.WriteLine("Intro Text");
+        }
+
+        static void Einlesen()
+        {
+            
         }
     }
 }
