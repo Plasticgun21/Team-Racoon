@@ -21,15 +21,46 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss           |  funktionale   | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
-| 2  |                 |      |                                    |
+| 2  |                 |      |        Hallo SIda                            |
 |3|muss|funktional|Als Benutzer möchte ich das meine Spielstände gespeichert werden, damit ich die Wörter die ich nicht konnte wieder lernen kann.|
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+|  4  |                 |      |                                    |
+|  5  |                 |      |                                    |
+|  6  |                 |      |                                    |
+|  7  |                 |      |                                    |
+|  8  |                 |      |                                    |
+|  9  |                 |      |                                    |
+|  10  |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
+| 1.1  |   Programm gestartet           |  Deutsch oder Englisch oder Französisch       |    Wörter der jeweiligen Sprache               |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
+| ...  |              |         |                   |
 | ...  |              |         |                   |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
