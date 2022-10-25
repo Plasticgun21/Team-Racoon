@@ -44,9 +44,9 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |   Programm gestartet           |  Deutsch oder Englisch oder Französisch       |    Wörter der jeweiligen Sprache               |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
+| 2.1  |   Programm gestartet und Sprache gewählt           |  Schwierigkeitsgrad       |   Schwierigkeit gespeichert                |
+| 3.1  |   Programm gestartet und Sprache, Schwierigkeitsgrad gewählt           |  23       |     Falsch. wurde gespeichert              |
+| 4.1  |              |         |                   |
 | ...  |              |         |                   |
 | ...  |              |         |                   |
 | ...  |              |         |                   |
