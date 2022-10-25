@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace VociTrainerLA1200
                 Modus = Console.ReadLine();
                 if (Modus == "einlesen")
                 {
+                    Einlesen();
                     break;
                 }
                 else if (Modus == "ausgeben")
@@ -52,11 +54,13 @@ namespace VociTrainerLA1200
         static void Einlesen()
         {
             string Französisch;
+            string Deutsch;
 
             string DateiPfad = @"C:\Sprachen\Franz.txt";
             string[] Zeilen = File.ReadAllLines(DateiPfad);
 
             Console.Write("Französisches Wort: ");
+            Deutsch = Console.ReadLine();
 
 
         }
