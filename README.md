@@ -24,6 +24,21 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | 2  |                 |      |                                    |
 |3|muss|funktional|Als Benutzer möchte ich das meine Spielstände gespeichert werden, damit ich die Wörter die ich nicht konnte wieder lernen kann.|
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+|    |                 |      |                                    |
+
 
 ### 1.3 Testfälle
 
