@@ -21,7 +21,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss           |  funktionale   | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
-| 2  |                 |      |        Hallo SIda                            |
+| 2  |                 |      |       Hahahah Damian get clapped                            |
 |3|muss|funktional|Als Benutzer möchte ich das meine Spielstände gespeichert werden, damit ich die Wörter die ich nicht konnte wieder lernen kann.|
 |  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |                 |      |                                    |
