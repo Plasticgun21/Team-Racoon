@@ -11,8 +11,27 @@ namespace VociTrainerLA1200
     {
         static void Main(string[] args)
         {
-            Intro();
+            string Modus;
 
+            Intro();
+            Console.WriteLine("Möchten sie Wörter einlesen oder ausgeben?");
+            while (true)
+            {
+                Modus = Console.ReadLine();
+                if (Modus == "einlesen")
+                {
+                    break;
+                }
+                else if (Modus == "ausgeben")
+                {
+                    Ausgeben();
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("ungültige Aktion");
+                }
+            }
         }
 
         static void Intro()
@@ -20,8 +39,15 @@ namespace VociTrainerLA1200
             Console.WriteLine("Intro Text");
         }
 
-        static void Einlesen()
+        static void Ausgeben()
         {
+            string DateiPfad = @"C:\Sprachen\Franz.txt";
+            string[] Zeilen = File.ReadAllLines(DateiPfad);
+
+            for(int i = 0; i < Zeilen.Length; i++)
+            {
+                Console.WriteLine(Zeilen[i]);
+            }
         }
     }
 }
