@@ -8,6 +8,7 @@ namespace VociTrainerLA1200
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World2!");
+            Console.Write("Amongus");
         }
     }
 }
