@@ -26,8 +26,8 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 |  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |           muss      |  funtional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
 |  6  |        muss      |   funtional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
-|  7  |                 |      |                                    |
-|  8  |          kann       |   funtional   |       Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                             |
+|  7  |                 |      | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
+|  8  |                 |      |                                    |
 |  9  |                 |      |                                    |
 |  10  |                 |      |                                    |
 |    |                 |      |                                    |
