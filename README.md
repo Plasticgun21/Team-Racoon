@@ -24,7 +24,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | 2  |                 |      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
 |3|muss|funktional|Als Benutzer möchte ich das meine Spielstände gespeichert werden, damit ich die Wörter die ich nicht konnte wieder lernen kann.|
 |  4  |    muss             |   funtional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
-|  5  |                 |      |                                    |
+|  5  |           muss      |  funtional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
 |  6  |                 |      |                                    |
 |  7  |                 |      |                                    |
 |  8  |                 |      |                                    |
