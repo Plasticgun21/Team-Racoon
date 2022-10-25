@@ -2,7 +2,7 @@
 
 
 Team Racoon
-Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
+Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
