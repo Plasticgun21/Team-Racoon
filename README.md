@@ -14,7 +14,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 ### 1.1 Ihr Projekt
 
-![Projektbeschreibung](https://youtu.be/dQw4w9WgXcQ)
+[Projektbeschreibung](https://youtu.be/dQw4w9WgXcQ)
 
 ### 1.2 User Stories
 
