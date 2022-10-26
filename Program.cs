@@ -55,14 +55,16 @@ namespace VociTrainerLA1200
         {
             string Französisch;
             string Deutsch;
+            int ZeilenLänge;
 
             string DateiPfad = @"C:\Sprachen\Franz.txt";
             string[] Zeilen = File.ReadAllLines(DateiPfad);
 
             Console.Write("Französisches Wort: ");
             Deutsch = Console.ReadLine();
-
-
+            //ZeilenLänge = Zeilen
+            //Zeilen[] =
+                
         }
     }
 }
