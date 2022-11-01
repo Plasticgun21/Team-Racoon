@@ -1,7 +1,0 @@
-﻿################################################################################
-# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
-################################################################################
-
-/.vs
-/obj/Debug/netcoreapp3.1
-/obj
