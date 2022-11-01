@@ -72,8 +72,9 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 1.11.22 | Liam | Liam muss 50 Wörter suchen für unserer übersetzer. |  40 min.  |
+| 1.B  | 1.11.22 | Niclas | Niclas muss das Grundprogramm programmieren. |  120 min.  |
+| 1.C  | 1.11.22 | Damian/Luca | Sie müssen die Testfälle fertig schreiben. | 60 min. |
 
 Total: 
 
