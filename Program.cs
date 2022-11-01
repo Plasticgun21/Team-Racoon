@@ -201,12 +201,26 @@ namespace Voci_Trainer
                 //Console.WriteLine(z);
             }
 
+            bool Wahrheit = false;
             Random random = new Random();
             while (true)
             {
                 int Zuf = random.Next(Zeilen.Length);
                 Console.WriteLine($"Was ist das {Sprache} Wort für {Deutsch[Zuf]}");
                 string Antwort = Console.ReadLine();
+                foreach(string E in Englisch)
+                {
+                    //Console.WriteLine($"    {E}");
+                    if(E == Antwort)
+                    {
+                        Console.WriteLine("Richtig!");
+                        Wahrheit = true;
+                    }
+                }
+                if(Wahrheit == false)
+                {
+                    Console.WriteLine("Falsch!");
+                }
                 
             }
         }
