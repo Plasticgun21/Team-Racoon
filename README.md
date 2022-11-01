@@ -46,7 +46,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | 1.1  |   Programm gestartet           |  Deutsch oder Englisch oder Französisch       |    Wörter der jeweiligen Sprache               |
 | 2.1  |   Programm gestartet und Sprache gewählt           |  Schwierigkeitsgrad       |   Schwierigkeit gespeichert                |
 | 3.1  |   Programm gestartet und Sprache, Schwierigkeitsgrad gewählt           |  23       |     Falsch. wurde gespeichert              |
-| 4.1  |              |         |                   |
+| 4.1  |  Wort zum Übersetztn            |  falsches Wort       |  Eingabe falsch                 |
 | 5.1  |              |         |                   |
 | 6.1  |              |         |                   |
 | 7.1  |              |         |                   |
@@ -72,9 +72,8 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 1.11.22 | Liam | Liam muss 50 Wörter suchen für unserer übersetzer. |  40 min.  |
-| 1.B  | 1.11.22 | Niclas | Niclas muss das Grundprogramm programmieren. |  120 min.  |
-| 1.C  | 1.11.22 | Damian/Luca | Sie müssen die Testfälle fertig schreiben. | 60 min. |
+| 1.A  |       |           |              |               |
+| ...  |       |           |              |               |
 
 Total: 
 
