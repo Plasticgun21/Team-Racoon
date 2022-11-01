@@ -1,0 +1,14 @@
+C:\Users\nicla\Source\Repos\Team-Racoon\bin\Debug\netcoreapp3.1\Voci_Trainer.exe
+C:\Users\nicla\Source\Repos\Team-Racoon\bin\Debug\netcoreapp3.1\Voci_Trainer.deps.json
+C:\Users\nicla\Source\Repos\Team-Racoon\bin\Debug\netcoreapp3.1\Voci_Trainer.runtimeconfig.json
+C:\Users\nicla\Source\Repos\Team-Racoon\bin\Debug\netcoreapp3.1\Voci_Trainer.runtimeconfig.dev.json
+C:\Users\nicla\Source\Repos\Team-Racoon\bin\Debug\netcoreapp3.1\Voci_Trainer.dll
+C:\Users\nicla\Source\Repos\Team-Racoon\bin\Debug\netcoreapp3.1\Voci_Trainer.pdb
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.csproj.AssemblyReference.cache
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.AssemblyInfoInputs.cache
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.AssemblyInfo.cs
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.csproj.CoreCompileInputs.cache
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.dll
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.pdb
+C:\Users\nicla\Source\Repos\Team-Racoon\obj\Debug\netcoreapp3.1\Voci_Trainer.genruntimeconfig.cache
