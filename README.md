@@ -72,7 +72,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |     Koch      |              |               |
+| 1.A  |       |     Koch      |      Man fragt den Benutzer mit switch case ab.        |               |
 |   |       |           |              |               |
 |||||
 |||||
