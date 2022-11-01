@@ -161,17 +161,19 @@ namespace Voci_Trainer
           
             
         }
-        
-               
-           
 
-            
-        
 
-        
+
+
+
+
+
+
 
         static void English()
         {
+            string Sprache = "Englische";
+
             string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
             string[] Zeilen = File.ReadAllLines(DateiPfad);
 
@@ -186,17 +188,26 @@ namespace Voci_Trainer
             foreach (string z in Zeilen)
             {
                 Temp = z.Split(';');
-                Englisch[Count] = Temp[0];
-                Deutsch[Count] = Temp[1];
+                Deutsch[Count] = Temp[0];
+                Englisch[Count] = Temp[1];
                 Markieren[Count] = Temp[2];
                 System[Count] = Temp[3];
                 Count++;
 
             }
-        
-            foreach(string z in Englisch)
+
+            foreach (string z in Englisch)
             {
-                Console.WriteLine(z);
+                //Console.WriteLine(z);
+            }
+
+            Random random = new Random();
+            while (true)
+            {
+                int Zuf = random.Next(Zeilen.Length);
+                Console.WriteLine($"Was ist das {Sprache} Wort für {Deutsch[Zuf]}");
+                string Antwort = Console.ReadLine();
+                
             }
         }
     }
