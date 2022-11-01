@@ -207,7 +207,7 @@ namespace Voci_Trainer
             {
                 int Zuf = random.Next(Zeilen.Length);
                 Console.WriteLine($"Was ist das {Sprache} Wort für {Deutsch[Zuf]}");
-                string Antwort = Console.ReadLine();
+                string Antwort = Console.ReadLine();//StringComparison.OrdinalIgnoreCase
                 foreach(string E in Englisch)
                 {
                     //Console.WriteLine($"    {E}");
