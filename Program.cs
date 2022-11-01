@@ -180,9 +180,9 @@ namespace Voci_Trainer
             string[] Markieren = new string[Zeilen.Length];
             string[] System = new string[Zeilen.Length];
 
-
             int Count = 0;
             string[] Temp = new string[4];
+
             foreach (string z in Zeilen)
             {
                 Temp = z.Split(';');
@@ -194,10 +194,6 @@ namespace Voci_Trainer
 
             }
         
-
-         
-            
-
             foreach(string z in Englisch)
             {
                 Console.WriteLine(z);
