@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicla\\source\\repos\\Voci-Trainer\\Voci-Trainer.csproj": {}
+    "C:\\Users\\nicla\\Source\\Repos\\Team-Racoon\\Voci-Trainer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicla\\source\\repos\\Voci-Trainer\\Voci-Trainer.csproj": {
+    "C:\\Users\\nicla\\Source\\Repos\\Team-Racoon\\Voci-Trainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicla\\source\\repos\\Voci-Trainer\\Voci-Trainer.csproj",
+        "projectUniqueName": "C:\\Users\\nicla\\Source\\Repos\\Team-Racoon\\Voci-Trainer.csproj",
         "projectName": "Voci-Trainer",
-        "projectPath": "C:\\Users\\nicla\\source\\repos\\Voci-Trainer\\Voci-Trainer.csproj",
+        "projectPath": "C:\\Users\\nicla\\Source\\Repos\\Team-Racoon\\Voci-Trainer.csproj",
         "packagesPath": "C:\\Users\\nicla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicla\\source\\repos\\Voci-Trainer\\obj\\",
+        "outputPath": "C:\\Users\\nicla\\Source\\Repos\\Team-Racoon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
