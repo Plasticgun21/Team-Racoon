@@ -53,7 +53,7 @@ namespace VociTrainerLA1200
         }
         static void Einlesen()
         {
-            string Französisch;
+            string Englisch;
             string Deutsch;
             int ZeilenLänge;
 
