@@ -207,11 +207,12 @@ namespace Voci_Trainer
             {
                 int Zuf = random.Next(Zeilen.Length);
                 Console.WriteLine($"Was ist das {Sprache} Wort für {Deutsch[Zuf]}");
-                string Antwort = Console.ReadLine();//StringComparison.OrdinalIgnoreCase
-                foreach(string E in Englisch)
+                string Antwort = Console.ReadLine(); //StringComparison.OrdinalIgnoreCase
+                foreach (string E in Englisch)
                 {
+                    
                     //Console.WriteLine($"    {E}");
-                    if(E == Antwort)
+                    if(string.Equals(E, Antwort,StringComparison.OrdinalIgnoreCase))
                     {
                         Console.WriteLine("Richtig!");
                         Wahrheit = true;
@@ -221,7 +222,7 @@ namespace Voci_Trainer
                 {
                     Console.WriteLine("Falsch!");
                 }
-                
+                Wahrheit = false;
             }
         }
     }
