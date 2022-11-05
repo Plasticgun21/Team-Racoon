@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Voci_Trainer
 {
@@ -194,7 +188,7 @@ namespace Voci_Trainer
             }
 
             bool Lernmodus = false;
-            bool DebugMode = true;
+            bool DebugMode = false;
 
             int RichitgCount=0;
             int FalseCount=0;
@@ -227,14 +221,20 @@ namespace Voci_Trainer
                         Zeilen[Zuf] = $"{Deutsch[Zuf]};{Englisch[Zuf]};{Markieren[Zuf]};x";
                     }
                 }
+
                 Console.Clear();
                 File.WriteAllLines(DateiPfad, Zeilen);
-                Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben!");
+                for (int i = 6; i >= 1; i--)
+                {
+                    Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                }
+                Lernmodus = true;
                 
-                Console.Clear();
             }
 
-            if(true)
+            if(Lernmodus)
             {
                 Count = 0;
                 string[] Zeilen2 = File.ReadAllLines(DateiPfad);
@@ -265,6 +265,12 @@ namespace Voci_Trainer
                     
                 }
 
+                if(Count == 0)
+                {
+                    Console.WriteLine("Nichts zu Wiederhohlen :)");
+                    Environment.Exit(1);
+                }
+
                 //Nun wird der Counterwert dem Array zugewisen, der counter auf 0
                 //um ihn wieder zu verwenden und es wird noch ein zusätzlicher Counter erstellt.
                 temp = new int[Count];
@@ -279,7 +285,10 @@ namespace Voci_Trainer
                     if (Mar == "x")
                     {
                         temp[Count2] = Count;
-                        Console.WriteLine($"{temp[Count2]} Rohe Zahl: {Count} Das Wort dahinter: {Deutsch[Count]}");
+                        if (DebugMode)
+                        {
+                            Console.WriteLine($"{temp[Count2]} Rohe Zahl: {Count} Das Wort dahinter: {Deutsch[Count]}");
+                        }
                         Count2++;
                     }
                     Count++;
@@ -347,6 +356,7 @@ namespace Voci_Trainer
                             }
                         }
                     }
+                    
                     
                 }
 
