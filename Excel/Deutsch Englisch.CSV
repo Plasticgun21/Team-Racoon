@@ -7,25 +7,25 @@ Sekunde;second;;
 Minute;minute;;
 Stunde;hour;;
 Tag;day;;
-Woche;week;;
+Woche;week;;x
 Monat;month;;
 Jahr;year;;
-früh;early;;
-spät;late;;
+frï¿½h;early;;
+spï¿½t;late;;
 Montag;Monday;;
 Dienstag;Tuesday;;
 Mittwoch;Wednesday;;
 Donnerstag;Thursday;;
 Freitag;Friday;;
-Samstag;Saturday;;
-Sonntag;Sunday;;
-Frühling;spring;;
+Samstag;Saturday;;x
+Sonntag;Sunday;;x
+Frï¿½hling;spring;;
 Sommer;summer;;
 Herbst;fall (amerik.) / autumn (brit.);;
 Winter;winter;;
 Januar;January;;
 Februar;February;;
-März;March;;
+Mï¿½rz;March;;
 April;April;;
 Mai;May;;
 Juni;June;;
@@ -36,7 +36,7 @@ Oktober;October;;
 November;November;;
 Dezember;December;;
 Uhrzeit;time;;
-Wie spät ist es?;What time is it?;;
+Wie spï¿½t ist es?;What time is it?;;
 Jahrzehnt;decade;;
 Jahrhundert;century;;
 Orte;Locations;;
@@ -47,12 +47,12 @@ Hotel;hotel;;
 Bar;bar;;
 Apotheke;pharmacy;;
 Strand;beach;;
-Restaurant;restaurant;;
+Restaurant;restaurant;;x
 Flughafen;airport;;
-Bäckerei;bakery;;
+Bï¿½ckerei;bakery;;
 Bushaltestelle;bus station;;
 Kirche;church;;
-Kino;cinema;;
+Kino;cinema;;x
 Tankstelle;gas station;;
 Museum;museum;;
 Polizeistation;police station;;
