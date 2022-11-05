@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Voci_Trainer
@@ -265,7 +266,7 @@ namespace Voci_Trainer
                 }
 
                 bool überprüfung = false;
-
+                Count = 0;
                 while (true)
                 {
                     //führe solange aus wie das array temp lang ist.
@@ -274,11 +275,19 @@ namespace Voci_Trainer
                         //überprüfen, ob alle die person alle wörter kennt.
                         foreach (int te in temp)
                         {
-                            if(te != -1)
+                            if(te == -1)
                             {
-                                break;
+                                Count++;
                             }
                         }
+
+                        //Ist der Wert Count gleichlang
+                        if (Count == temp.Length)
+                        {
+                            Environment.Exit(1);
+                        }
+                        Count = 0;
+
                         //wenn im Array temp der wert -1 gefunden wird, soll es diesen überspringen.
                         while (temp[i] == -1)
                         {
