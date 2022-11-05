@@ -163,7 +163,7 @@ namespace Voci_Trainer
 
         static void English()
         {
-            bool DebugMode = true;
+            
             string Sprache = "Englisch";
 
             string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
@@ -193,7 +193,8 @@ namespace Voci_Trainer
                 //Console.WriteLine(z);
             }
 
-            bool Lernmodus = true;
+            bool Lernmodus = false;
+            bool DebugMode = true;
 
             int RichitgCount=0;
             int FalseCount=0;
@@ -228,13 +229,30 @@ namespace Voci_Trainer
                 }
                 Console.Clear();
                 File.WriteAllLines(DateiPfad, Zeilen);
-                Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch");
+                Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben!");
+                
+                Console.Clear();
             }
 
-            if(Lernmodus)
+            if(true)
             {
+                Count = 0;
+                string[] Zeilen2 = File.ReadAllLines(DateiPfad);
+
+                foreach (string z in Zeilen2)
+                {
+                    Temp = z.Split(';');
+                    Deutsch[Count] = Temp[0];
+                    Englisch[Count] = Temp[1];
+                    Markieren[Count] = Temp[2];
+                    System[Count] = Temp[3];
+                    Count++;
+
+                }
+
                 //Counter wird auf 0 gesetzt und es wird ein Array namens temp erstellt.
                 Count = 0;
+                
                 int[] temp;
 
                 //Es wird im Array System gesucht, ob das zeichen "x" vorhanden ist wenn ja, wird der counter +1 gerechnet.
@@ -257,15 +275,16 @@ namespace Voci_Trainer
                 //wird der wert des counters in das Array temp eingeschrieben um bei den anderen arrays das Wort auszulesen.
                 foreach (string Mar in System)
                 {
-                    Count++;
-                    if (Mar=="x")
+
+                    if (Mar == "x")
                     {
                         temp[Count2] = Count;
+                        Console.WriteLine($"{temp[Count2]} Rohe Zahl: {Count} Das Wort dahinter: {Deutsch[Count]}");
                         Count2++;
                     }
+                    Count++;
                 }
 
-                bool überprüfung = false;
                 Count = 0;
                 while (true)
                 {
@@ -284,6 +303,9 @@ namespace Voci_Trainer
                         //Ist der Wert Count gleichlang
                         if (Count == temp.Length)
                         {
+                            Console.Clear();
+                            File.WriteAllLines(DateiPfad, Zeilen2);
+                            Console.WriteLine($"Du kannst nun alle {temp.Length} wörter! Sie wurden von der wiederhohl Liste entfernt.");
                             Environment.Exit(1);
                         }
                         Count = 0;
@@ -292,6 +314,10 @@ namespace Voci_Trainer
                         while (temp[i] == -1)
                         {
                             i++;
+                            if(i == temp.Length)
+                            {
+                                i = 0;
+                            }
                         }
 
                         Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[temp[i]]}");
@@ -301,6 +327,8 @@ namespace Voci_Trainer
                         {
                             Console.WriteLine(" Richtig!");
                             RichitgCount++;
+                            //x von der liste entfernen
+                            Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{Englisch[temp[i]]};{Markieren[temp[i]]};";
                             //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
                             temp[i] = -1;
                         }
@@ -315,7 +343,7 @@ namespace Voci_Trainer
                         {
                             foreach (int z in temp)
                             {
-                                Console.WriteLine($" DEBUG {z} -_- {i}");
+                                Console.WriteLine($" DEBUG {z} -_- {temp[i]}");
                             }
                         }
                     }

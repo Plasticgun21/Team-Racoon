@@ -1,5 +1,5 @@
-Deutsch;Englisch;x;Systemnotitzen
-jetzt;now;;
+Deutsch;Englisch;x;
+jetzt;now;;x
 heute;today;;
 morgen;tomorrow;;
 gestern;yesterday;;
@@ -7,7 +7,7 @@ Sekunde;second;;
 Minute;minute;;
 Stunde;hour;;
 Tag;day;;
-Woche;week;;x
+Woche;week;;
 Monat;month;;
 Jahr;year;;
 fr�h;early;;
@@ -17,8 +17,8 @@ Dienstag;Tuesday;;
 Mittwoch;Wednesday;;
 Donnerstag;Thursday;;
 Freitag;Friday;;
-Samstag;Saturday;;x
-Sonntag;Sunday;;x
+Samstag;Saturday;;
+Sonntag;Sunday;;
 Fr�hling;spring;;
 Sommer;summer;;
 Herbst;fall (amerik.) / autumn (brit.);;
@@ -31,7 +31,7 @@ Mai;May;;
 Juni;June;;
 Juli;July;;
 August;August;;
-September;September;;
+September;September;;x
 Oktober;October;;
 November;November;;
 Dezember;December;;
@@ -47,12 +47,12 @@ Hotel;hotel;;
 Bar;bar;;
 Apotheke;pharmacy;;
 Strand;beach;;
-Restaurant;restaurant;;x
+Restaurant;restaurant;;
 Flughafen;airport;;
 B�ckerei;bakery;;
 Bushaltestelle;bus station;;
 Kirche;church;;
-Kino;cinema;;x
+Kino;cinema;;
 Tankstelle;gas station;;
 Museum;museum;;
 Polizeistation;police station;;
