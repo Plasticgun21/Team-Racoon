@@ -172,7 +172,7 @@ namespace Voci_Trainer
 
         static void English()
         {
-            string Sprache = "Englische";
+            string Sprache = "Englisch";
 
             string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
             string[] Zeilen = File.ReadAllLines(DateiPfad);
@@ -201,28 +201,33 @@ namespace Voci_Trainer
                 //Console.WriteLine(z);
             }
 
-            bool Wahrheit = false;
+            bool Lernmodus = false;
+
+            int RichitgCount=0;
+            int FalseCount=0;
             Random random = new Random();
-            while (true)
+
+            
+            if (Lernmodus)
             {
-                int Zuf = random.Next(Zeilen.Length);
-                Console.WriteLine($"Was ist das {Sprache} Wort für {Deutsch[Zuf]}");
-                string Antwort = Console.ReadLine(); //StringComparison.OrdinalIgnoreCase
-                foreach (string E in Englisch)
+                while (true)
                 {
-                    
-                    //Console.WriteLine($"    {E}");
-                    if(string.Equals(E, Antwort,StringComparison.OrdinalIgnoreCase))
+                    int Zuf = random.Next(Zeilen.Length);
+                    Console.WriteLine($"Was ist das {Sprache}e Wort für {Deutsch[Zuf]}");
+                    string Antwort = Console.ReadLine();
+
+                    if (string.Equals(Antwort, Englisch[Zuf], StringComparison.OrdinalIgnoreCase))
                     {
                         Console.WriteLine("Richtig!");
-                        Wahrheit = true;
+                        RichitgCount++;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine($"Falsch! Richtig währe {Englisch[Zuf]}");
+                        FalseCount++;
                     }
                 }
-                if(Wahrheit == false)
-                {
-                    Console.WriteLine("Falsch!");
-                }
-                Wahrheit = false;
             }
         }
     }
