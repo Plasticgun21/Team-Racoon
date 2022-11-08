@@ -62,22 +62,16 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |     Koch      |      Man fragt den Benutzer mit switch case ab.        |               |
-|   |       |           |              |               |
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+| 1.A  |       |     Koch      |      Man fragt den Benutzer mit switch case ab.        |     45          |
+| 2.A  |       |           |              |     45          |
+| 3.A | | du | 45 |
+| 4.A | | du | 45 |
+| 5.A | | du | 45 |
+| 6.A | | du | 45 |
+| 7.A | | du | 45 |
+| 8.A | | du | 45 |
+| 9.A | | du | 45 |
+
 
 
 Total: 
