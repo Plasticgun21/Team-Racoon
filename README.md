@@ -35,22 +35,21 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 |  7  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
 |  8  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  9  |       muss          | funktional     | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
-| 10 | muss | funktional | Als benutzer möchte ich auswählen können wie viele Wörter man lernen muss
+
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| 2.1  |              |         |                   |
-| 3.1  |              |         |                   |
-| 4.1  |              |         |                   |
-| 5.1  |              |         |                   |
-| 6.1  |              |         |                   |
-| 7.1  |              |         |                   |
-| 8.1  |              |         |                   |
-| 9.1  |              |         |                   |
+| 1.1  | Programm ist gestartet und fragt welche Sprache man will lernen. | Englisch | Englisch wurde ausgewählt. |
+| 2.1  | Programm läuft und fragt nach schwierigkeit.| einfach | Einfach wurde ausgewählt. |
+| 3.1  | Programm läuft und fragt nach Auto. |  Car       |   Richtig!                |
+| 4.1  | Programm läuft und fragt ob man noch ein Wort will  |  y      | Programm sucht nächstes Wort            |
+| 5.1  | Programm läuft und fragt nach Autobahn  | Carroad |   Falsch !  |
+| 6.1  | Programm läuft und fragt ob man noch ein Wort will. |   n      | Programm rechnet prozent aus. |
+| 7.1  | Programm läuft und zeigt das man 50% richtig hat.    |   Enter      | Congratulation Sie haben gut gemacht.                 |
+| 8.1  | Programm läuft und fragt ob man noch mal lernen will.             |   n      | Programm schliesst.                   |
 
 
 
@@ -62,16 +61,22 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A | 15.11.2022 | Koch | Den benutzer nach der SPrache zum antworten fragen. | 45 |
-| 2.A | 15.11.2022 | du | Verschiedene Schwierigkeitsgrade für einfachere und schwierigere Wörter,  | 45 |
-| 3.A | 15.11.2022 | du |  | 45 |
-| 4.A | 15.11.2022 | du |  | 45 | 
-| 5.A | 15.11.2022 | du |  | 45 | 
-| 6.A | 15.11.2022 | du |  | 45 | 
-| 7.A | 15.11.2022 | du |  | 45 |
-| 8.A | 15.11.2022 | du |  | 45 |
-| 9.A | 15.11.2022 | du |  | 45 |
-
+| 1.A  |       |     Koch      |      Man fragt den Benutzer mit switch case ab.        |               |
+|   |       |           |              |               |
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
 
 
 Total: 
