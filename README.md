@@ -103,8 +103,8 @@ Jeder nur so wie er kann.
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |    08.11.2022   |    Stimmt      |   Niclas     |
+| 2.A  |    08.11.2022    |          |        |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
