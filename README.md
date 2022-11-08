@@ -35,38 +35,23 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 |  7  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
 |  8  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  9  |       muss          | funktional     | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
-|  10  |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
+
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |   Programm gestartet           |  Deutsch oder Englisch oder Französisch       |    Wörter der jeweiligen Sprache               |
-| 2.1  |   Programm gestartet und Sprache gewählt           |  Schwierigkeitsgrad       |   Schwierigkeit gespeichert                |
-| 3.1  |   Programm gestartet und Sprache, Schwierigkeitsgrad gewählt           |  23       |     Falsch. wurde gespeichert              |
-| 4.1  |  Wort zum Übersetztn            |  falsches Wort       |  Eingabe falsch                 |
-| 5.1  |  Programm gestartet und Sprache gewählt            |         |                   |
-| 6.1  |              |         |                   |
+| 1.1  |              |         |                   |
+| 2.1  |              |         |                   |
+| 3.1  |              |         |                   |
+| 4.1  |              |         |                   |
+| 5.1  |              |         |                   |
+| ...  |              |         |                   |
 | 7.1  |              |         |                   |
 | 8.1  |              |         |                   |
 | 9.1  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
