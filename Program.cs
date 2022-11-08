@@ -32,13 +32,13 @@ namespace Voci_Trainer
                 if (string.Equals("Englisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen("Englisch");
+                    Abfragen("Englisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen("Deutsch");
+                    Abfragen("Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
                 }
                 else
                 {
@@ -54,13 +54,14 @@ namespace Voci_Trainer
 
                 if (string.Equals("Französisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("Gibts nicht");
-
+                    Console.WriteLine("Worked!");
+                    Abfragen("Englisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("Gibts nicht");
+                    Console.WriteLine("Worked!");
+                    Abfragen("Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
                 }
                 else
                 {
@@ -82,16 +83,15 @@ namespace Voci_Trainer
 
         }
 
-        static void Abfragen(string AntwortSprache)
+        static void Abfragen(string AntwortSprache, string DateiPfad)
         {
             
             //Sprache = "Englisch"; Sprache wurde schon eingestellt
 
-            string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
+            //string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
             string[] Zeilen = File.ReadAllLines(DateiPfad);
 
-            string[] EnglischFranz
-                = new string[Zeilen.Length];
+            string[] EnglischFranz = new string[Zeilen.Length];
             string[] Deutsch = new string[Zeilen.Length];
             string[] Markieren = new string[Zeilen.Length];
             string[] System = new string[Zeilen.Length];
@@ -162,7 +162,7 @@ namespace Voci_Trainer
                     }
                     Lernmodus = true;
                 }
-                if (AntwortSprache == "Deustsch")
+                else if (AntwortSprache == "Deutsch")
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
                     int Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
@@ -171,10 +171,10 @@ namespace Voci_Trainer
                     for (int i = 0; i < Durchläufe; i++)
                     {
                         int Zuf = random.Next(Zeilen.Length);
-                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[Zuf]}");
+                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {EnglischFranz[Zuf]}");
                         string Antwort = Console.ReadLine();
 
-                        if (string.Equals(Antwort, EnglischFranz[Zuf], StringComparison.OrdinalIgnoreCase))
+                        if (string.Equals(Antwort, Deutsch[Zuf], StringComparison.OrdinalIgnoreCase))
                         {
                             Console.WriteLine(" Richtig!");
                             RichitgCount++;
@@ -182,7 +182,7 @@ namespace Voci_Trainer
 
                         else
                         {
-                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[Zuf]}");
+                            Console.WriteLine($" Falsch! Richtig währe {Deutsch[Zuf]}");
                             FalseCount++;
                             Zeilen[Zuf] = $"{Deutsch[Zuf]};{EnglischFranz[Zuf]};{Markieren[Zuf]};x";
                         }
