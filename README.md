@@ -42,7 +42,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programm ist gestartet und fragt welche Sprache man will lernen. | Englisch | Englisch wurde ausgewählt. |
+| 1.1  | Programm ist gestartet und fragt mit welcher Sprache man antworten will | Englisch | Englisch wurde ausgewählt. |
 | 2.1  | Programm läuft und fragt nach schwierigkeit.| einfach | Einfach wurde ausgewählt. |
 | 3.1  | Programm läuft und fragt nach Auto. |  Car       |   Richtig!                |
 | 4.1  | Programm läuft und fragt ob man noch ein Wort will  |  y      | Programm sucht nächstes Wort            |
