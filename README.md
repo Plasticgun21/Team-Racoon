@@ -23,18 +23,18 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 [Projektbeschreibung](https://youtu.be/dQw4w9WgXcQ)
 
 ### 1.2 User Stories
-
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |    muss   |  funktional  | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
 | 2  |    kann             | funktional      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
-|3|muss|funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
-|  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
-|  5  |           muss      |  funktional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
+| 3 | muss |funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
+|  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit  man weiss wann man etwas falsches eingeben hat.                     |
 |  6  |        muss      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
 |  7  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
 |  8  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  9  |       muss          | funktional     | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
+| 10 | muss | funktional | Als benutzer möchte ich auswählen können wie viele Wörter man lernen muss |
+
 
 
 
@@ -55,35 +55,26 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |     Koch      |      Man fragt den Benutzer mit switch case ab.        |               |
-|   |       |           |              |               |
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+| 1.A | 15.11.2022 | Koch | Den benutzer nach der SPrache zum antworten fragen. | 45 |
+| 2.A | 15.11.2022 | du | Verschiedene Schwierigkeitsgrade für einfachere und schwierigere Wörter.  | 45 |
+| 3.A | 15.11.2022 | du | Falsche antworten speichern und beim nächsten mak nochmal abfragen.  | 45 |
+| 4.A | 15.11.2022 | du | Bei einer falschen Antwort soll eine Fehlerausgabe erscheinen. | 45 | 
+| 5.A | 15.11.2022 | du | Eine Auswahl bei der man aussuchen kann ob man auf Deutshc oder Englisch antwortet. | 45 | 
+| 6.A | 15.11.2022 | du |  | 45 | 
+| 7.A | 15.11.2022 | du |  | 45 |
+| 8.A | 15.11.2022 | du |  | 45 |
+| 9.A | 15.11.2022 | du |  | 45 |
+
 
 
 Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
