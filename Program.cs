@@ -85,7 +85,8 @@ namespace Voci_Trainer
 
         static void Abfragen(int AntwortSprache,string Sprache, string DateiPfad)
         {
-            
+            Console.Clear();
+
             //Sprache = "Englisch"; Sprache wurde schon eingestellt
 
             //string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
