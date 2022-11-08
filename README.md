@@ -84,7 +84,7 @@ Jeder nur so wie er kann.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-|| 1.A | 15.11.2022 | Koch | 45 |20 |
+|| 1.A | 15.11.2022 | Koch | 45 | 20 |
 | 2.A | 15.11.2022 | Erismann | 45 |70 |
 | 3.A | 15.11.2022 | Jeanneret Winsky | 45 | 80|
 | 4.A | 15.11.2022 | Warnebold | 45 | 45 |
