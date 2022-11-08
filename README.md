@@ -2,13 +2,19 @@
 
 
 Team Racoon 
-Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
+Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Gaggi arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                          sida                             |
+|       | 0.0.1   | Die User Stories wurden erstellt                             |
+|       | 0.0.2   | Testfälle erstellt                                           |
+|       | 0.0.3   | Planen und entscheiden wurde erstellt                        |
+|       | 0.0.4   | Realisieren                                                  |
+
+
+
+
+
 
 ## 1 Informieren
 
@@ -17,97 +23,79 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 [Projektbeschreibung](https://youtu.be/dQw4w9WgXcQ)
 
 ### 1.2 User Stories
-
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |    muss   |  funktional  | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
 | 2  |    kann             | funktional      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
-|3|muss|funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
-|  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit der man weiss wann man etwas falsches eingeben hat.                     |
-|  5  |           muss      |  funktional    |           Als Benutzer möchte ich das ich mit englischen oder deutschen Wörtern abgefragt werde, damit ich überhaupt spielen kann.                         |
-|  6  |        muss      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
-|  7  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
-|  8  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
-|  9  |       muss          | funktional     | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
-|  10  |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
-|    |                 |      |                                    |
+| 3 | muss |funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
+|  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit  man weiss wann man etwas falsches eingeben hat.                     |
+|  5  |        muss      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
+|  6  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
+|  7  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
+|  8  |       kann          | funktional     | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
+| 9 | muss | funktional | Als benutzer möchte ich auswählen können wie viele Wörter man lernen muss |
+
+
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |   Programm gestartet           |  Deutsch oder Englisch oder Französisch       |    Wörter der jeweiligen Sprache               |
-| 2.1  |   Programm gestartet und Sprache gewählt           |  Schwierigkeitsgrad       |   Schwierigkeit gespeichert                |
-| 3.1  |   Programm gestartet und Sprache, Schwierigkeitsgrad gewählt           |  23       |     Falsch. wurde gespeichert              |
-| 4.1  |  Wort zum Übersetztn            |  falsches Wort       |  Eingabe falsch                 |
-| 5.1  |  Programm gestartet und Sprache gewählt            |         |                   |
-| 6.1  |              |         |                   |
-| 7.1  |              |         |                   |
-| 8.1  |              |         |                   |
-| 9.1  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Programm ist gestartet und fragt mit welcher Sprache man antworten will | Englisch | Englisch wurde ausgewählt. |
+| 2.1  | Programm läuft und fragt nach schwierigkeit.| einfach | Einfach wurde ausgewählt. |
+| 3.1  | Programm läuft und fragt nach Auto. |  Car       |   Richtig!                |
+| 4.1  | Programm läuft und fragt ob man noch ein Wort will  |  y      | Programm sucht nächstes Wort            |
+| 5.1  | Programm läuft und fragt nach Autobahn  | Carroad |   Falsch !  |
+| 6.1  | Programm läuft und fragt ob man noch ein Wort will. |   n      | Programm rechnet prozent aus. |
+| 7.1  | Programm läuft und zeigt das man 50% richtig hat.    |   Enter      | Congratulation Sie haben gut gemacht.                 |
+| 8.1  | Programm läuft und fragt ob man noch mal lernen will.             |   n      | Programm schliesst.                   |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |     Koch      |      Man fragt den Benutzer mit switch case ab.        |               |
-|   |       |           |              |               |
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+| 1.A | 15.11.2022 | Koch | Den benutzer nach der SPrache zum antworten fragen. | 45 |
+| 2.A | 15.11.2022 | Erismann | Verschiedene Schwierigkeitsgrade für einfachere und schwierigere Wörter.  | 45 |
+| 3.A | 15.11.2022 | Jeanneret Winsky | Falsche antworten speichern und beim nächsten mak nochmal abfragen.  | 45 |
+| 4.A | 15.11.2022 | Warnebold | Bei einer falschen Antwort soll eine Fehlerausgabe erscheinen. | 45 | 
+| 5.A | 15.11.2022 | Müller | Eine Auswahl bei der man aussuchen kann ob man auf Deutshc oder Englisch antwortet. | 45 | 
+| 6.A | 15.11.2022 | Warnebold | Bei fehleingaben soll ein Tipp für das nächste mal gegeben werden | 45 | 
+| 7.A | 15.11.2022 | Koch | Andere Sprachen können auch benutzt werden | 45 |
+| 8.A | 15.11.2022 | Erismann | Der Benutzer kann Wörter einlesen oder lernen | 45 |
+| 9.A | 15.11.2022 | Müller | Der benutzer kann auswählen wie viele Wörter er lernen muss | 45 |
 
 
-Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
+Total: 405
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Jeder nur so wie er kann.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+|| 1.A | 01.11.2022 | Koch | 45 | 20 |
+| 2.A | 01.11.2022 | Erismann | 45 |70 |
+| 3.A | 01.11.2022 | Jeanneret Winsky | 45 | 80|
+| 4.A | 01.11.2022 | Warnebold | 45 | 45 |
+| 5.A | 01.11.2022 | Müller | 45 | 45|
+| 6.A | 08.11.2022 | Warnebold | 45 | 20 |
+| 7.A | 08.11.2022 | Koch | 45 | 90 |
+| 8.A | 08.11.2022 | Erismann | 45 | 100 |
+| 9.A | 08.11.2022 | Müller | 45 | 30 |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
+
 
 ## 5 Kontrollieren
 
