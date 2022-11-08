@@ -35,7 +35,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 |  7  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
 |  8  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  9  |       muss          | funktional     | Als Benutzer möchte ich auswählen können ob ich Wörter einlesen oder lernen möchte, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
-
+| 10 | muss | funktional | Als benutzer möchte ich auswählen können wie viele Wörter man lernen muss
 
 
 ### 1.3 Testfälle
@@ -62,8 +62,8 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A | 15.11.2022 | Koch | Man fragt den Benutzer mit switch case ab. | 45 |
-| 2.A | 15.11.2022 | du |  | 45 |
+| 1.A | 15.11.2022 | Koch | Den benutzer nach der SPrache zum antworten fragen. | 45 |
+| 2.A | 15.11.2022 | du | Verschiedene Schwierigkeitsgrade für einfachere und schwierigere Wörter,  | 45 |
 | 3.A | 15.11.2022 | du |  | 45 |
 | 4.A | 15.11.2022 | du |  | 45 | 
 | 5.A | 15.11.2022 | du |  | 45 | 
