@@ -42,15 +42,15 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | |  |  |
-| 2.1  | |  |  |
+| 1.1  | Programmläuft und wird nach sprache gefragt | englisch | sprache gewählt |
+| 2.1  | Sprache gewählt und schwierigkeit wird gefragt | leicht | schwierigkeit gewählt |
 | 3.1  | |  |  |
 | 4.1  | |  |  |
 | 5.1  | |  |  |
 | 6.1  | |  |  |
 | 7.1  | |  |  |
 | 8.1  | |  |  |             
-
+| 9.1  | |  |  |
 
 ### 1.4 Diagramme
 
