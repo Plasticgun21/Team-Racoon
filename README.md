@@ -6,9 +6,15 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Gaggi arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                          sida                             |
+|       | 0.0.1   | Die User Stories wurden erstellt                             |
+|       | 0.0.2   | Testfälle erstellt                                           |
+|       | 0.0.3   | Planen und entscheiden wurde erstellt                        |
+|       | 0.0.4   | Realisieren                                                  |
+
+
+
+
+
 
 ## 1 Informieren
 
