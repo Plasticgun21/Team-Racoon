@@ -1,5 +1,10 @@
 ﻿using System;
+using System.ComponentModel.Design.Serialization;
 using System.IO;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Threading;
 
 namespace Voci_Trainer
@@ -8,162 +13,85 @@ namespace Voci_Trainer
     {
         static void Main(string[] args)
         {
-           
-            English();
+
+            Selector();
         }
+
 
         static void Selector()
         {
-            
-            
-            
-            string Antwort = "Deusch";
-
-
             Console.WriteLine("Wollen sie französische Wörter oder englische Wörter lernen?");
-            string Antwort0 = Console.ReadLine();
-            switch(Antwort0)
+            string Input = Console.ReadLine();
+
+            if (string.Equals("Englisch", Input, StringComparison.OrdinalIgnoreCase))
             {
-                case "englisch":
-                    {
-                        Console.WriteLine("Wollen sie mit Deutsch oder Englisch Antworten?");
-                        try
-                        {
-                            Antwort = Console.ReadLine();
 
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Falsche Eingabe.");
-                            //ApplicationException.Exit();
-                        }
-                        switch (Antwort)
-                        {
+                Console.WriteLine("Wollen sie auf englisch oder deutsch Antworten?");
+                Input = Console.ReadLine();
 
-                            case "deutsch":
-                                break;
-                            case "englisch":
-                                break;
+                if (string.Equals("Englisch", Input, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Worked!");
+                    Abfragen("Englisch");
 
-                            case "Deutsch":
-                                break;
-                            case "Englisch":
-                                break;
-                            default:
-                                throw new Exception();
-                                
-                        }
-                        break;
-                    }
-
-                case "französisch":
-                    { Console.WriteLine("Wollen sie mit Deutsch oder Französisch Antworten?");
-                    
-                        try
-                        {
-                            Antwort = Console.ReadLine();
-
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Falsche Eingabe.");
-                            //ApplicationException.Exit();
-                        }
-                        switch (Antwort)
-                        {
-
-                            case "deutsch":
-                                break;
-                            case "französisch":
-                                break;
-
-                            case "Deutsch":
-                                break;
-                            case "Französisch":
-                                break;
-                            default:
-                                throw new Exception();
-                                
-                        }
-                        break;
-                    }
-                case "Französisch":
-                    {
-                        Console.WriteLine("Wollen sie mit Deutsch oder Französisch Antworten?");
-
-                        try
-                        {
-                            Antwort = Console.ReadLine();
-
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Falsche Eingabe.");
-                            //ApplicationException.Exit();
-                        }
-                        switch (Antwort)
-                        {
-
-                            case "deutsch":
-                                break;
-                            case "französisch":
-                                break;
-
-                            case "Deutsch":
-                                break;
-                            case "Französisch":
-                                break;
-                            default:
-                                throw new Exception();
-                                
-                        }
-                        break;
-                    }
-                case "Englisch":
-                    {
-                        Console.WriteLine("Wollen sie mit Deutsch oder Englisch Antworten?");
-                        try
-                        {
-                            Antwort = Console.ReadLine();
-
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Falsche Eingabe.");
-                            //ApplicationException.Exit();
-                        }
-                        switch (Antwort)
-                        {
-
-                            case "deutsch":
-                                break;
-                            case "englisch":
-                                break;
-
-                            case "Deutsch":
-                                break;
-                            case "Englisch":
-                                break;
-                            default:
-                                throw new Exception();
-                                
-                        }
-                    }
-                    break;
+                }
+                else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Worked!");
+                    Abfragen("Deutsch");
+                }
+                else
+                {
+                    Console.WriteLine("Sie haben eine falsche Eingabe eingeben.");
+                    Console.WriteLine("Das Programm wird beendet.");
+                    Environment.Exit(1);
+                }
             }
-           
-            
+            else if (string.Equals("Französisch", Input, StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("Wollen sie auf französisch oder deutsch Antworten?");
+                Input = Console.ReadLine();
+
+                if (string.Equals("Französisch", Input, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Gibts nicht");
+
+
+                }
+                else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Gibts nicht");
+                }
+                else
+                {
+                    Console.WriteLine("Sie haben eine falsche Eingabe eingeben.");
+                    Console.WriteLine("Das Programm wird beendet.");
+                    Environment.Exit(1);
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Sie haben eine falsche Eingabe eingeben.");
+                Console.WriteLine("Das Programm wird beendet.");
+                Environment.Exit(1);
+            }
+
+          
+
+
         }
 
-        static void English()
+        static void Abfragen(string AntwortSprache)
         {
             
-            string Sprache = "Englisch";
+            //Sprache = "Englisch"; Sprache wurde schon eingestellt
 
             string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
             string[] Zeilen = File.ReadAllLines(DateiPfad);
 
-            string[] Englisch = new string[Zeilen.Length];
+            string[] EnglischFranz
+                = new string[Zeilen.Length];
             string[] Deutsch = new string[Zeilen.Length];
             string[] Markieren = new string[Zeilen.Length];
             string[] System = new string[Zeilen.Length];
@@ -175,14 +103,14 @@ namespace Voci_Trainer
             {
                 Temp = z.Split(';');
                 Deutsch[Count] = Temp[0];
-                Englisch[Count] = Temp[1];
+                EnglischFranz[Count] = Temp[1];
                 Markieren[Count] = Temp[2];
                 System[Count] = Temp[3];
                 Count++;
 
             }
 
-            foreach (string z in Englisch)
+            foreach (string z in EnglischFranz)
             {
                 //Console.WriteLine(z);
             }
@@ -198,39 +126,78 @@ namespace Voci_Trainer
             
             if (Lernmodus == false)
             {
-                Console.WriteLine("Wie viele Wörter möchtest du lernen?");
-                int Durchläufe = Convert.ToInt32(Console.ReadLine());
-                Console.Clear();
-
-                for (int i = 0; i < Durchläufe; i++)
+                if (AntwortSprache == "Englisch")
                 {
-                    int Zuf = random.Next(Zeilen.Length);
-                    Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[Zuf]}");
-                    string Antwort = Console.ReadLine();
-
-                    if (string.Equals(Antwort, Englisch[Zuf], StringComparison.OrdinalIgnoreCase))
-                    {
-                        Console.WriteLine(" Richtig!");
-                        RichitgCount++;
-                    }
-
-                    else
-                    {
-                        Console.WriteLine($" Falsch! Richtig währe {Englisch[Zuf]}");
-                        FalseCount++;
-                        Zeilen[Zuf] = $"{Deutsch[Zuf]};{Englisch[Zuf]};{Markieren[Zuf]};x";
-                    }
-                }
-
-                Console.Clear();
-                File.WriteAllLines(DateiPfad, Zeilen);
-                for (int i = 6; i >= 1; i--)
-                {
-                    Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
-                    Thread.Sleep(1000);
+                    Console.WriteLine("Wie viele Wörter möchtest du lernen?");
+                    int Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
                     Console.Clear();
+
+                    for (int i = 0; i < Durchläufe; i++)
+                    {
+                        int Zuf = random.Next(Zeilen.Length);
+                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[Zuf]}");
+                        string Antwort = Console.ReadLine();
+
+                        if (string.Equals(Antwort, EnglischFranz[Zuf], StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine(" Richtig!");
+                            RichitgCount++;
+                        }
+
+                        else
+                        {
+                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[Zuf]}");
+                            FalseCount++;
+                            Zeilen[Zuf] = $"{Deutsch[Zuf]};{EnglischFranz[Zuf]};{Markieren[Zuf]};x";
+                        }
+                    }
+
+                    Console.Clear();
+                    File.WriteAllLines(DateiPfad, Zeilen);
+                    for (int i = 6; i >= 1; i--)
+                    {
+                        Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                    }
+                    Lernmodus = true;
                 }
-                Lernmodus = true;
+                if (AntwortSprache == "Deustsch")
+                {
+                    Console.WriteLine("Wie viele Wörter möchtest du lernen?");
+                    int Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
+                    Console.Clear();
+
+                    for (int i = 0; i < Durchläufe; i++)
+                    {
+                        int Zuf = random.Next(Zeilen.Length);
+                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[Zuf]}");
+                        string Antwort = Console.ReadLine();
+
+                        if (string.Equals(Antwort, EnglischFranz[Zuf], StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine(" Richtig!");
+                            RichitgCount++;
+                        }
+
+                        else
+                        {
+                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[Zuf]}");
+                            FalseCount++;
+                            Zeilen[Zuf] = $"{Deutsch[Zuf]};{EnglischFranz[Zuf]};{Markieren[Zuf]};x";
+                        }
+                    }
+
+                    Console.Clear();
+                    File.WriteAllLines(DateiPfad, Zeilen);
+                    for (int i = 6; i >= 1; i--)
+                    {
+                        Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                    }
+                    Lernmodus = true;
+                }
                 
             }
 
@@ -243,7 +210,7 @@ namespace Voci_Trainer
                 {
                     Temp = z.Split(';');
                     Deutsch[Count] = Temp[0];
-                    Englisch[Count] = Temp[1];
+                    EnglischFranz[Count] = Temp[1];
                     Markieren[Count] = Temp[2];
                     System[Count] = Temp[3];
                     Count++;
@@ -329,22 +296,22 @@ namespace Voci_Trainer
                             }
                         }
 
-                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[temp[i]]}");
+                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[temp[i]]}");
                         string Antwort = Console.ReadLine();
 
-                        if (string.Equals(Antwort, Englisch[temp[i]], StringComparison.OrdinalIgnoreCase))
+                        if (string.Equals(Antwort, EnglischFranz[temp[i]], StringComparison.OrdinalIgnoreCase))
                         {
                             Console.WriteLine(" Richtig!");
                             RichitgCount++;
                             //x von der liste entfernen
-                            Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{Englisch[temp[i]]};{Markieren[temp[i]]};";
+                            Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
                             //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
                             temp[i] = -1;
                         }
 
                         else
                         {
-                            Console.WriteLine($" Falsch! Richtig währe {Englisch[temp[i]]}");
+                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[temp[i]]}");
                             FalseCount++;
 
                         }
