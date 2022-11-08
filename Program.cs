@@ -120,18 +120,25 @@ namespace Voci_Trainer
 
             int RichitgCount=0;
             int FalseCount=0;
+            int Durchläufe = 0;
             Random random = new Random();
 
-            
-            
             if (Lernmodus == false)
             {
                 if (AntwortSprache == "Englisch")
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
-                    int Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
-                    Console.Clear();
+                    try
+                    {
+                       Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Unerlaubte Aktion");
+                    }
 
+                    Console.Clear();
+                    
                     for (int i = 0; i < Durchläufe; i++)
                     {
                         int Zuf = random.Next(Zeilen.Length);
@@ -165,7 +172,15 @@ namespace Voci_Trainer
                 else if (AntwortSprache == "Deutsch")
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
-                    int Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
+                    try
+                    {
+                        Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Unerlaubte Aktion");
+                    }
+                    
                     Console.Clear();
 
                     for (int i = 0; i < Durchläufe; i++)
