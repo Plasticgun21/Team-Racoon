@@ -53,7 +53,6 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Kock
 | 9.1  |              |         |                   |
 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
