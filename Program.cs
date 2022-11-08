@@ -311,30 +311,62 @@ namespace Voci_Trainer
                             }
                         }
 
-                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[temp[i]]}");
-                        string Antwort = Console.ReadLine();
-
-                        if (string.Equals(Antwort, EnglischFranz[temp[i]], StringComparison.OrdinalIgnoreCase))
+                        if (AntwortSprache == "Deutsch")
                         {
-                            Console.WriteLine(" Richtig!");
-                            RichitgCount++;
-                            //x von der liste entfernen
-                            Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
-                            //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
-                            temp[i] = -1;
-                        }
+                            Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[temp[i]]}");
+                            string Antwort = Console.ReadLine();
 
-                        else
-                        {
-                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[temp[i]]}");
-                            FalseCount++;
-
-                        }
-                        if (DebugMode)
-                        {
-                            foreach (int z in temp)
+                            if (string.Equals(Antwort, EnglischFranz[temp[i]], StringComparison.OrdinalIgnoreCase))
                             {
-                                Console.WriteLine($" DEBUG {z} -_- {temp[i]}");
+                                Console.WriteLine(" Richtig!");
+                                RichitgCount++;
+                                //x von der liste entfernen
+                                Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
+                                //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
+                                temp[i] = -1;
+                            }
+
+                            else
+                            {
+                                Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[temp[i]]}");
+                                FalseCount++;
+
+                            }
+                            if (DebugMode)
+                            {
+                                foreach (int z in temp)
+                                {
+                                    Console.WriteLine($" DEBUG {z} -_- {temp[i]}");
+                                }
+                            }
+                        }
+                        else if (AntwortSprache == "Englisch")
+                        {
+                            Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {EnglischFranz[temp[i]]}");
+                            string Antwort = Console.ReadLine();
+
+                            if (string.Equals(Antwort, Deutsch[temp[i]], StringComparison.OrdinalIgnoreCase))
+                            {
+                                Console.WriteLine(" Richtig!");
+                                RichitgCount++;
+                                //x von der liste entfernen
+                                Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
+                                //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
+                                temp[i] = -1;
+                            }
+
+                            else
+                            {
+                                Console.WriteLine($" Falsch! Richtig währe {Deutsch[temp[i]]}");
+                                FalseCount++;
+
+                            }
+                            if (DebugMode)
+                            {
+                                foreach (int z in temp)
+                                {
+                                    Console.WriteLine($" DEBUG {z} -_- {temp[i]}");
+                                }
                             }
                         }
                     }
@@ -342,10 +374,6 @@ namespace Voci_Trainer
                     
                 }
 
-                foreach (int te in temp)
-                {
-                    //Console.WriteLine(te);
-                }
             }
             
         }
