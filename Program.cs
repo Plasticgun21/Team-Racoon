@@ -32,13 +32,13 @@ namespace Voci_Trainer
                 if (string.Equals("Englisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen("Englisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
+                    Abfragen(1,"Englisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen("Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
+                    Abfragen(2,"Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
                 }
                 else
                 {
@@ -55,13 +55,13 @@ namespace Voci_Trainer
                 if (string.Equals("Französisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen("Englisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
+                    Abfragen(1,"Französisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen("Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
+                    Abfragen(2,"Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
                 }
                 else
                 {
@@ -83,7 +83,7 @@ namespace Voci_Trainer
 
         }
 
-        static void Abfragen(string AntwortSprache, string DateiPfad)
+        static void Abfragen(int AntwortSprache,string Sprache, string DateiPfad)
         {
             
             //Sprache = "Englisch"; Sprache wurde schon eingestellt
@@ -125,7 +125,7 @@ namespace Voci_Trainer
 
             if (Lernmodus == false)
             {
-                if (AntwortSprache == "Englisch")
+                if (AntwortSprache == 1)
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
                     try
@@ -142,7 +142,7 @@ namespace Voci_Trainer
                     for (int i = 0; i < Durchläufe; i++)
                     {
                         int Zuf = random.Next(Zeilen.Length);
-                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[Zuf]}");
+                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[Zuf]}");
                         string Antwort = Console.ReadLine();
 
                         if (string.Equals(Antwort, EnglischFranz[Zuf], StringComparison.OrdinalIgnoreCase))
@@ -169,7 +169,7 @@ namespace Voci_Trainer
                     }
                     Lernmodus = true;
                 }
-                else if (AntwortSprache == "Deutsch")
+                else if (AntwortSprache == 2)
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
                     try
@@ -186,7 +186,7 @@ namespace Voci_Trainer
                     for (int i = 0; i < Durchläufe; i++)
                     {
                         int Zuf = random.Next(Zeilen.Length);
-                        Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {EnglischFranz[Zuf]}");
+                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {EnglischFranz[Zuf]}");
                         string Antwort = Console.ReadLine();
 
                         if (string.Equals(Antwort, Deutsch[Zuf], StringComparison.OrdinalIgnoreCase))
@@ -311,9 +311,9 @@ namespace Voci_Trainer
                             }
                         }
 
-                        if (AntwortSprache == "Deutsch")
+                        if (AntwortSprache == 1)
                         {
-                            Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {Deutsch[temp[i]]}");
+                            Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[temp[i]]}");
                             string Antwort = Console.ReadLine();
 
                             if (string.Equals(Antwort, EnglischFranz[temp[i]], StringComparison.OrdinalIgnoreCase))
@@ -340,9 +340,9 @@ namespace Voci_Trainer
                                 }
                             }
                         }
-                        else if (AntwortSprache == "Englisch")
+                        else if (AntwortSprache == 2)
                         {
-                            Console.WriteLine($"  Was ist das {AntwortSprache}e Wort für {EnglischFranz[temp[i]]}");
+                            Console.WriteLine($"  Was ist das {Sprache}e Wort für {EnglischFranz[temp[i]]}");
                             string Antwort = Console.ReadLine();
 
                             if (string.Equals(Antwort, Deutsch[temp[i]], StringComparison.OrdinalIgnoreCase))
