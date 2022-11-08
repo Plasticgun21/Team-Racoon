@@ -84,18 +84,18 @@ Jeder nur so wie er kann.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-|| 1.A | 15.11.2022 | Koch | | 45 |
-| 2.A | 15.11.2022 | Erismann |  | 45 |
-| 3.A | 15.11.2022 | Jeanneret Winsky |   | 45 |
-| 4.A | 15.11.2022 | Warnebold | | 45 | 
-| 5.A | 15.11.2022 | Müller |  | 45 | 
-| 6.A | 15.11.2022 | Warnebold |  | 45 | 
-| 7.A | 15.11.2022 | Koch |  | 45 |
-| 8.A | 15.11.2022 | Erismann |  | 45 |
-| 9.A | 15.11.2022 | Müller |  | 45 |
+|| 1.A | 15.11.2022 | Koch | 45 |20 |
+| 2.A | 15.11.2022 | Erismann | 45 |70 |
+| 3.A | 15.11.2022 | Jeanneret Winsky | 45 | 80|
+| 4.A | 15.11.2022 | Warnebold | 45 | 45 |
+| 5.A | 15.11.2022 | Müller | 45 | 45|
+| 6.A | 15.11.2022 | Warnebold | 45 | 20 |
+| 7.A | 15.11.2022 | Koch | 45 | 90 |
+| 8.A | 15.11.2022 | Erismann | 45 | 100 |
+| 9.A | 15.11.2022 | Müller | 45 | 30 |
 
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
