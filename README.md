@@ -42,15 +42,14 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programm ist gestartet und fragt mit welcher Sprache man antworten will | Englisch | Englisch wurde ausgewählt. |
-| 2.1  | Programm läuft und fragt nach schwierigkeit.| einfach | Einfach wurde ausgewählt. |
-| 3.1  | Programm läuft und fragt nach Auto. |  Car       |   Richtig!                |
-| 4.1  | Programm läuft und die Frage wurde beanwortet |  Enter    | Richtig            |
-| 5.1  | Programm läuft und fragt nach Autobahn  | Carroad |   Falsch !  |
-| 6.1  | Programm läuft und fragt ob man noch ein Wort will. |   n      | Programm rechnet prozent aus. |
-| 7.1  | Programm läuft und zeigt das man 50% richtig hat.    |   Enter      | Congratulation Sie haben gut gemacht.                 |
-| 8.1  | Programm läuft und fragt ob man noch mal lernen will.             |   n      | Programm schliesst.                   |
-
+| 1.1  | |  |  |
+| 2.1  | |  |  |
+| 3.1  | |  |  |
+| 4.1  | |  |  |
+| 5.1  | |  |  |
+| 6.1  | |  |  |
+| 7.1  | |  |  |
+| 8.1  | |  |  |             
 
 
 ### 1.4 Diagramme
