@@ -73,19 +73,27 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 
 
-Total: 
+Total: 405
 
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Jeder nur so wie er kann.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+|| 1.A | 15.11.2022 | Koch | | 45 |
+| 2.A | 15.11.2022 | Erismann |  | 45 |
+| 3.A | 15.11.2022 | Jeanneret Winsky |   | 45 |
+| 4.A | 15.11.2022 | Warnebold | | 45 | 
+| 5.A | 15.11.2022 | Müller |  | 45 | 
+| 6.A | 15.11.2022 | Warnebold |  | 45 | 
+| 7.A | 15.11.2022 | Koch |  | 45 |
+| 8.A | 15.11.2022 | Erismann |  | 45 |
+| 9.A | 15.11.2022 | Müller |  | 45 |
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
