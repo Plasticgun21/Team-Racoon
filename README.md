@@ -47,7 +47,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | 3.1  | Wort wird gefragt | *falsche Antwort* | falsch, antwort gespeichert |
 | 4.1  | Wort wird gefragt | *falsche Antwort* | falsch |
 | 5.1  | Wort wird gefragt | *richtige Antwort* | richtig, 1 Punkt, 10sec. |
-| 6.1  | Wort wird gefragt | *falsche Antwort* | flasch, die Antwort ist *richtige antwort*  |
+| 6.1  | Wort wird gefragt | *falsche Antwort* | falsch, die Antwort ist *richtige Antwort*  |
 | 7.1  | Programm läuft| Englisch  | Lernsprache gewählt |
 | 8.1  | |  |  |             
 | 9.1  | |  |  |
