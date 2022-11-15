@@ -1,5 +1,5 @@
 # Lern-Bericht
-Team Racoon
+Team Racoon Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 ## Einleitung
 
