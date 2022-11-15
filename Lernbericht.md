@@ -50,16 +50,20 @@ namespace Beispiel_Code
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
-Text: Im Text wird erklärt wie eine Datei eingelesen wird. Code: Im Code wird eine eingelesene Datei dargestellt. Gif: Im Gif wird gezeigt welche Datei eingelesen wird und wie sie ausgegeben wird.
- 
+
+✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Im Gif sieht man gut
 
 # Reflexion zum Arbeitsprozess
 
 👍 Wir konnten unseren funktionierenden Code rechtzeitig fertigstellen, was uns schon ein bisschen stolz gemacht hat. 
+
 👍 Wir konnten konzentriert arbeiten und kamen auch schnell voran.    
 
-👎 Die Rollenverteilung war nicht ideal. Unser Teamchef war schlecht gewählt, da er nichts gemacht hat, keine Ahnung hatte was wir machen und nie mitgemacht hat. 
+👎 Die Rollenverteilung war nicht ideal. Unser Teamchef war schlecht gewählt, da er nichts gemacht hat, keine Ahnung hatte was wir machen und nie mitgemacht hat.
+
 👎Wir haben zu viel Zeit mit der Projektdokumentation gebraucht. 
+
 👎Unser Teamchef war Jeanneret Winsky
 
-VBV: Am Anfang richtig besprechen wer ein guter und zuverlässiger Teamchef ist. Die Projektdokumentation muss laufend geändert werden.
+**VBV**: Am Anfang richtig besprechen wer ein guter und zuverlässiger Teamchef ist. Die Projektdokumentation muss laufend geändert werden.
