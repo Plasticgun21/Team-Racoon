@@ -10,6 +10,7 @@ Wir haben gelernt wie man Dateien ein und auslesen kann. Dazu habe wir auch Live
 ## Beschreibung
 Mit dem Einlesen kann man Datei ohne grossen Aufwand in ein Programm einfügen und benutzen. So kann man den Benutzer Wörter abfragen und diese mit den richtigen Wörtern vergleichen. Wenn man eine Datei eingelesen hat kann man Wörter hinzufügen oder löschen, und sie werden automatisch gestrichen.
 
+![Example](https://github.com/Plasticgun21/Team-Racoon/blob/main/ExaplesLernbericht/Example.gif?raw=true)
 
 ```CSHARP
 using System;
