@@ -55,6 +55,8 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 ### 1.4 Diagramme
 
 
+![Voci Trainer](https://user-images.githubusercontent.com/110892742/201855434-a40e24e2-ec68-4734-8d4f-5ac43b29f56d.png)
+
 
 ## 2 Planen
 
