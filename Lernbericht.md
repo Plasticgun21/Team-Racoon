@@ -54,10 +54,16 @@ Code: Im Code wird eine eingelesene Datei gezeigt.
 👍 Wir konnten konzentriert arbeiten und kamen auch schnell voran.
 
 
-👎 Die Rollenverteilung war nicht ideal. Unser Teamchef war schlecht gewählt, da er nichts gemacht hat, keine Ahnung hatte was wir machen und nie mitgemacht hat.
+👎 Die Rollenverteilung war nicht ideal. Da alle nicht wussten wer was machte.
 
 👎Wir haben zu viel Zeit mit der Projektdokumentation gebraucht. 
 
-👎Unser Teamchef war Jeanneret Winsky
+👎Der Teamchef war überfordet weil zwei unbedingt programmieren wollten. Also mussten die anderen Dokumentation schreiben, 
+dies war sehr chaotisch wegen der Informationsmangel.
 
-**VBV**: Am Anfang richtig besprechen wer ein guter und zuverlässiger Teamchef ist. Die Projektdokumentation muss laufend geändert werden.
+**VBV**: Am anfang sollten alle ruhig sein damit der Teamchef die Aufgaben geben kann.
+
+
+
+
+
