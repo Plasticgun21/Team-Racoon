@@ -43,7 +43,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Programm läuft und wird nach Sprache gefragt | englisch | Sprache gewählt |
-| 2.1  | Sprache gewählt und Schwierigkeit wird gefragt | leicht | Schwierigkeit gewählt |
+| 2.1  | Sprache gewählt und fragt, ob man mit Deutsch oder Englisch geantwortet wird. | englisch | sprache gewählt |
 | 3.1  | Wort wird gefragt | *falsche Antwort* | falsch, antwort gespeichert |
 | 4.1  | Wort wird gefragt | *falsche Antwort* | falsch |
 | 5.1  | Wort wird gefragt | *richtige Antwort* | richtig, 1 Punkt, 10sec. |
@@ -105,7 +105,7 @@ Jeder nur so wie er kann.
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |    08.11.2022   |    Stimmt      |   Niclas     |
-| 2.A  |    08.11.2022    |          |        |
+| 2.1  |    08.11.2022    |   Stimmt       |   Niclas     |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
