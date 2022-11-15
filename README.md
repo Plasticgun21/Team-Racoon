@@ -30,7 +30,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | 3 | muss |funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
 |  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit  man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |        kann      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
-|  6  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler ein kleiner Tipp für das gesuchte Wort gibt, damit es einfacher ist das Wort zu erraten                                   |
+|  6  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler die richtige Antwort gegeben wird, damit es einfacher ist das Wort zu erraten                                   |
 |  7  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  8  |       muss          | funktional     | Als Benutzer möchte ich Wörter automatisch ausgeben lassen, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
 | 9 | muss | funktional | Als benutzer möchte ich auswählen können wie viele Wörter man lernen muss |
@@ -44,10 +44,10 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Programmläuft und wird nach sprache gefragt | englisch | sprache gewählt |
 | 2.1  | Sprache gewählt und schwierigkeit wird gefragt | leicht | schwierigkeit gewählt |
-| 3.1  | |  |  |
-| 4.1  | |  |  |
-| 5.1  | |  |  |
-| 6.1  | |  |  |
+| 3.1  | Wort wird gefragt | *falsche antwort* | falsch, antwort gespeichert |
+| 4.1  | wort wird gefragt | *falsche antwort* | falsch |
+| 5.1  | wort wird gefragt | *richtige antwort* | richtig, 1 Punkt, 10sec. |
+| 6.1  | wort wird gefragt | *falsche antwort* | flasch, *richtige antwort*  |
 | 7.1  | |  |  |
 | 8.1  | |  |  |             
 | 9.1  | |  |  |
