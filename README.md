@@ -42,13 +42,13 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programmläuft und wird nach sprache gefragt | englisch | sprache gewählt |
+| 1.1  | Programm läuft und wird nach sprache gefragt | englisch | sprache gewählt |
 | 2.1  | Sprache gewählt und schwierigkeit wird gefragt | leicht | schwierigkeit gewählt |
 | 3.1  | Wort wird gefragt | *falsche antwort* | falsch, antwort gespeichert |
 | 4.1  | wort wird gefragt | *falsche antwort* | falsch |
 | 5.1  | wort wird gefragt | *richtige antwort* | richtig, 1 Punkt, 10sec. |
-| 6.1  | wort wird gefragt | *falsche antwort* | flasch, *richtige antwort*  |
-| 7.1  | |  |  |
+| 6.1  | wort wird gefragt | *falsche antwort* | flasch, die Antwort ist *richtige antwort*  |
+| 7.1  | Programm läuft| Englisch  | lernsprache gewählt |
 | 8.1  | |  |  |             
 | 9.1  | |  |  |
 
