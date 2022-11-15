@@ -13,10 +13,8 @@ namespace Voci_Trainer
     {
         static void Main(string[] args)
         {
-
             Selector();
         }
-
 
         static void Selector()
         {
@@ -39,13 +37,13 @@ namespace Voci_Trainer
                 if (string.Equals("Englisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(1,"Englisch", DeutschEng);
+                    Query(1,"Englisch", DeutschEng);
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(2,"Deutsch", DeutschEng);
+                    Query(2,"Deutsch", DeutschEng);
                 }
                 else
                 {
@@ -62,13 +60,13 @@ namespace Voci_Trainer
                 if (string.Equals("Französisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(1,"Französisch", DeutschFranz);
+                    Query(1,"Französisch", DeutschFranz);
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(2,"Deutsch", DeutschFranz);
+                    Query(2,"Deutsch", DeutschFranz);
                 }
                 else
                 {
@@ -90,24 +88,24 @@ namespace Voci_Trainer
 
         }
 
-        static void Abfragen(int AntwortSprache,string Sprache, string DateiPfad)
+        static void Query(int AnswerLanguage,string Sprache, string FilePath)
         {
             Console.Clear();
 
             //Sprache = "Englisch"; Sprache wurde schon eingestellt
 
-            //string DateiPfad = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
-            string[] Zeilen = File.ReadAllLines(DateiPfad);
+            //string FilePath = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
+            string[] Lines = File.ReadAllLines(FilePath);
 
-            string[] EnglischFranz = new string[Zeilen.Length];
-            string[] Deutsch = new string[Zeilen.Length];
-            string[] Markieren = new string[Zeilen.Length];
-            string[] System = new string[Zeilen.Length];
+            string[] EnglischFranz = new string[Lines.Length];
+            string[] Deutsch = new string[Lines.Length];
+            string[] Markieren = new string[Lines.Length];
+            string[] System = new string[Lines.Length];
 
             int Count = 0;
             string[] Temp = new string[4];
 
-            foreach (string z in Zeilen)
+            foreach (string z in Lines)
             {
                 Temp = z.Split(';');
                 Deutsch[Count] = Temp[0];
@@ -123,22 +121,22 @@ namespace Voci_Trainer
                 //Console.WriteLine(z);
             }
 
-            bool Lernmodus = false;
+            bool LearningMode = false;
             bool DebugMode = false;
 
-            int RichitgCount=0;
+            int TrueCount=0;
             int FalseCount=0;
-            int Durchläufe = 0;
+            int Runs = 0;
             Random random = new Random();
 
-            if (Lernmodus == false)
+            if (LearningMode == false)
             {
-                if (AntwortSprache == 1)
+                if (AnswerLanguage == 1)
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
                     try
                     {
-                       Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
+                       Runs = Convert.ToInt32(Console.ReadLine()); //Error
                     }
                     catch
                     {
@@ -147,42 +145,42 @@ namespace Voci_Trainer
 
                     Console.Clear();
                     
-                    for (int i = 0; i < Durchläufe; i++)
+                    for (int i = 0; i < Runs; i++)
                     {
-                        int Zuf = random.Next(Zeilen.Length);
-                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[Zuf]}");
+                        int Rnd = random.Next(Lines.Length);
+                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[Rnd]}");
                         string Antwort = Console.ReadLine();
 
-                        if (string.Equals(Antwort, EnglischFranz[Zuf], StringComparison.OrdinalIgnoreCase))
+                        if (string.Equals(Antwort, EnglischFranz[Rnd], StringComparison.OrdinalIgnoreCase))
                         {
                             Console.WriteLine(" Richtig!");
-                            RichitgCount++;
+                            TrueCount++;
                         }
 
                         else
                         {
-                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[Zuf]}");
+                            Console.WriteLine($" Falsch! Richtig währe {EnglischFranz[Rnd]}");
                             FalseCount++;
-                            Zeilen[Zuf] = $"{Deutsch[Zuf]};{EnglischFranz[Zuf]};{Markieren[Zuf]};x";
+                            Lines[Rnd] = $"{Deutsch[Rnd]};{EnglischFranz[Rnd]};{Markieren[Rnd]};x";
                         }
                     }
 
                     Console.Clear();
-                    File.WriteAllLines(DateiPfad, Zeilen);
+                    File.WriteAllLines(FilePath, Lines);
                     for (int i = 6; i >= 1; i--)
                     {
-                        Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
+                        Console.WriteLine($"Du hattest {TrueCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
                         Thread.Sleep(1000);
                         Console.Clear();
                     }
-                    Lernmodus = true;
+                    LearningMode = true;
                 }
-                else if (AntwortSprache == 2)
+                else if (AnswerLanguage == 2)
                 {
                     Console.WriteLine("Wie viele Wörter möchtest du lernen?");
                     try
                     {
-                        Durchläufe = Convert.ToInt32(Console.ReadLine()); //Error
+                        Runs = Convert.ToInt32(Console.ReadLine()); //Error
                     }
                     catch
                     {
@@ -191,45 +189,45 @@ namespace Voci_Trainer
                     
                     Console.Clear();
 
-                    for (int i = 0; i < Durchläufe; i++)
+                    for (int i = 0; i < Runs; i++)
                     {
-                        int Zuf = random.Next(Zeilen.Length);
-                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {EnglischFranz[Zuf]}");
+                        int Rnd = random.Next(Lines.Length);
+                        Console.WriteLine($"  Was ist das {Sprache}e Wort für {EnglischFranz[Rnd]}");
                         string Antwort = Console.ReadLine();
 
-                        if (string.Equals(Antwort, Deutsch[Zuf], StringComparison.OrdinalIgnoreCase))
+                        if (string.Equals(Antwort, Deutsch[Rnd], StringComparison.OrdinalIgnoreCase))
                         {
                             Console.WriteLine(" Richtig!");
-                            RichitgCount++;
+                            TrueCount++;
                         }
 
                         else
                         {
-                            Console.WriteLine($" Falsch! Richtig währe {Deutsch[Zuf]}");
+                            Console.WriteLine($" Falsch! Richtig währe {Deutsch[Rnd]}");
                             FalseCount++;
-                            Zeilen[Zuf] = $"{Deutsch[Zuf]};{EnglischFranz[Zuf]};{Markieren[Zuf]};x";
+                            Lines[Rnd] = $"{Deutsch[Rnd]};{EnglischFranz[Rnd]};{Markieren[Rnd]};x";
                         }
                     }
 
                     Console.Clear();
-                    File.WriteAllLines(DateiPfad, Zeilen);
+                    File.WriteAllLines(FilePath, Lines);
                     for (int i = 6; i >= 1; i--)
                     {
-                        Console.WriteLine($"Du hattest {RichitgCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
+                        Console.WriteLine($"Du hattest {TrueCount} Richig und {FalseCount} Falsch. Nun kannst du die falschen Wörter üben! geht es in {i} sek weiter");
                         Thread.Sleep(1000);
                         Console.Clear();
                     }
-                    Lernmodus = true;
+                    LearningMode = true;
                 }
                 
             }
 
-            if(Lernmodus)
+            if(LearningMode)
             {
                 Count = 0;
-                string[] Zeilen2 = File.ReadAllLines(DateiPfad);
+                string[] Lines2 = File.ReadAllLines(FilePath);
 
-                foreach (string z in Zeilen2)
+                foreach (string z in Lines2)
                 {
                     Temp = z.Split(';');
                     Deutsch[Count] = Temp[0];
@@ -303,7 +301,7 @@ namespace Voci_Trainer
                         if (Count == temp.Length)
                         {
                             Console.Clear();
-                            File.WriteAllLines(DateiPfad, Zeilen2);
+                            File.WriteAllLines(FilePath, Lines2);
                             Console.WriteLine($"Du kannst nun alle {temp.Length} wörter! Sie wurden von der wiederhohl Liste entfernt.");
                             Environment.Exit(1);
                         }
@@ -319,7 +317,7 @@ namespace Voci_Trainer
                             }
                         }
 
-                        if (AntwortSprache == 1)
+                        if (AnswerLanguage == 1)
                         {
                             Console.WriteLine($"  Was ist das {Sprache}e Wort für {Deutsch[temp[i]]}");
                             string Antwort = Console.ReadLine();
@@ -327,9 +325,9 @@ namespace Voci_Trainer
                             if (string.Equals(Antwort, EnglischFranz[temp[i]], StringComparison.OrdinalIgnoreCase))
                             {
                                 Console.WriteLine(" Richtig!");
-                                RichitgCount++;
+                                TrueCount++;
                                 //x von der liste entfernen
-                                Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
+                                Lines2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
                                 //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
                                 temp[i] = -1;
                             }
@@ -348,7 +346,7 @@ namespace Voci_Trainer
                                 }
                             }
                         }
-                        else if (AntwortSprache == 2)
+                        else if (AnswerLanguage == 2)
                         {
                             Console.WriteLine($"  Was ist das {Sprache}e Wort für {EnglischFranz[temp[i]]}");
                             string Antwort = Console.ReadLine();
@@ -356,9 +354,9 @@ namespace Voci_Trainer
                             if (string.Equals(Antwort, Deutsch[temp[i]], StringComparison.OrdinalIgnoreCase))
                             {
                                 Console.WriteLine(" Richtig!");
-                                RichitgCount++;
+                                TrueCount++;
                                 //x von der liste entfernen
-                                Zeilen2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
+                                Lines2[temp[i]] = $"{Deutsch[temp[i]]};{EnglischFranz[temp[i]]};{Markieren[temp[i]]};";
                                 //wenn es richtig war im Array den wert mit -1 ersetzen, damit es überspringt wird.
                                 temp[i] = -1;
                             }
