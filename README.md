@@ -118,4 +118,4 @@ Jeder nur so wie er kann.
 
 ## 6 Auswerten
 
-Hier ist der Link zum [Lernbericht](https://github.com/Plasticgun21/Team-Racoon/blob/main/Lernbericht.md)
+Hier ist der Link zum [Lernbericht]https://github.com/Plasticgun21/Team-Racoon/blob/main/Lernbericht.md
