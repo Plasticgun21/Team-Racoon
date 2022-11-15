@@ -1,14 +1,15 @@
 # Lern-Bericht
-Team Racoon Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
+Team Racoon Jeanneret Winsky, Erismann, Koch, Müller, Warnebold
 
 ## Einleitung
 In unserem Projekt mussten wir einen Vocitrainer programmieren.
 
 ## Was habe ich gelernt?
-Wir haben gelernt wie man Live-Share funktion auf Visual Studios benuzt,
-damit wir alle zusammen auf Visual Studios programmieren können.
+Wir haben gelernt wie man Dateien ein und auslesen kann. Dazu habe wir auch Live-Share angewendet um gleichzeitig am Code arbeiten zu können. 
 
 ## Beschreibung
+Mit dem Einlesen kann man Datei ohne grossen Aufwand in ei
+
 
 ```CSHARP
 using System;
@@ -17,9 +18,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
-
- 
 
 namespace Beispiel_Code
 {
@@ -27,28 +27,18 @@ namespace Beispiel_Code
     {
         static void Main(string[] args)
         {
-
- 
-
- 
-
             string wordsPath = @"C:\Users\kochl\Desktop\IMS\BBB\Programmier Projekt\Datei.txt";
             string[] words = File.ReadAllLines(wordsPath);
-           
-            
+          
             for (int i = 0; i < words.Length; i++)
             {
                 Console.WriteLine(words[i]);
+                Thread.Sleep(1000);
             }
-            Console.Read();
-
- 
-
-
+            
         }
     }
 }
- 
 ```
 
 
@@ -73,4 +63,5 @@ Im Gif sieht man gut
 👎Wir haben zu viel Zeit mit der Projektdokumentation gebraucht. 
 👎Unser Teamchef war Jeanneret Winsky
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Am Anfang richtig besprechen wer ein guter und zuverlässiger Teamchef ist. Die Projektdokumentation muss laufend geändert werden.
+Wir müssen das nächste schauen wer 
