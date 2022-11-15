@@ -58,7 +58,8 @@ Im Gif sieht man gut
 
 👍 Wir konnten unseren funktionierenden Code rechtzeitig fertigstellen, was uns schon ein bisschen stolz gemacht hat. 
 
-👍 Wir konnten konzentriert arbeiten und kamen auch schnell voran.    
+👍 Wir konnten konzentriert arbeiten und kamen auch schnell voran.
+
 
 👎 Die Rollenverteilung war nicht ideal. Unser Teamchef war schlecht gewählt, da er nichts gemacht hat, keine Ahnung hatte was wir machen und nie mitgemacht hat.
 
