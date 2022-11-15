@@ -49,8 +49,8 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | 5.1  | Wort wird gefragt | *richtige Antwort* | richtig, 1 Punkt, 10sec. |
 | 6.1  | Wort wird gefragt | *falsche Antwort* | falsch, die Antwort ist *richtige Antwort*  |
 | 7.1  | Programm läuft| Englisch  | Lernsprache gewählt |
-| 8.1  | |  |  |             
-| 9.1  | |  |  |
+| 8.1  | wörter speichern?| ja | wörter gespeichert |             
+| 9.1  | wie viele wörter wollen sie lernen?| 10 |10 wörter lernen  |
 
 ### 1.4 Diagramme
 
