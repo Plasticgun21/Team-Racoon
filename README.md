@@ -119,5 +119,5 @@ Jeder nur so wie er kann.
 
 
 ## 6 Auswerten
- 
-![Lernbericht](https://github.com/Plasticgun21/Team-Racoon/blob/main/Lernbericht.md)
+
+[Lernbericht](https://github.com/Plasticgun21/Team-Racoon/blob/main/Lernbericht.md){: .btn}

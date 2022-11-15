@@ -25,7 +25,8 @@ damit wir alle zusammen auf Visual Studios programmieren können.
 
 # Reflexion zum Arbeitsprozess
 
-👍 Wir konnten unseren funktionierenden Code rechtzeitig fertigstellen, was uns schon ein bisschen stolz gemacht hat.  
+👍 Wir konnten unseren funktionierenden Code rechtzeitig fertigstellen, was uns schon ein bisschen stolz gemacht hat. 
+👍 Wir konnten konzentriert arbeiten und kammen    
 
 👎 Die Rollenverteilung war nicht ideal. Unser Teamchef war schlecht gewählt, da er nichts gemacht hat, keine Ahnung hatte was wir machen und nie mitgemacht hat. 
 Wir haben zu viel Zeit mit der Projektdokumentation gebraucht. 
