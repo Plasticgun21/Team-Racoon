@@ -8,8 +8,8 @@ In unserem Projekt mussten wir einen Vocitrainer programmieren.
 Wir haben gelernt wie man Dateien ein und auslesen kann. Dazu habe wir auch Live-Share angewendet um gleichzeitig am Code arbeiten zu können. 
 
 ## Beschreibung
-Mit dem Einlesen kann man Datei ohne grossen Aufwand in ein Programm einfügen und benutzen. So kann man den Benutzer Wörter abfragen und diese mit den richtigen Wörtern vergleichen. Wenn man eine Datei eingelesen hat kann man Wörter hinzufügen oder löschen, und sie werden automatisch gestrichen.
-
+Mit dem Einlesen kann man Dateien ohne grossen Aufwand in ein Programm einfügen und benutzen. So kann man den Benutzer Wörter abfragen und diese mit den richtigen Wörtern vergleichen. Wenn man eine Datei eingelesen hat, kann man Wörter hinzufügen oder löschen, und sie werden automatisch gestrichen oder hinzugefügt. Wie man unten beim Code sieht, wird die Datei eingelesen und dann in ein Array konvertiert. Danach wird die Datei mit for ausgeben und mit Thread.Sleep gibt man die Zeit an wie lange das Programm dauern soll.
+ 
 ![Example](https://github.com/Plasticgun21/Team-Racoon/blob/main/ExaplesLernbericht/Example.gif?raw=true)
 
 ```CSHARP
@@ -42,17 +42,10 @@ namespace Beispiel_Code
 }
 ```
 
-
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
-
-
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
-
 ## Verifikation
-
- 
+Text: Im Text wird beschrieben was man mit dem Einlesen ererichen kann und was im Code danach passiert.
+Gif: Im Video wird gezeigt was eine eingelesene Datei im Code macht.
+Code: Im Code wird eine eingelesene Datei gezeigt.
 
 # Reflexion zum Arbeitsprozess
 
