@@ -1,19 +1,20 @@
 # Lern-Bericht
-Team Racoon
+Team Racoon Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+In unserem Projekt mussten wir einen Vocitrainer programmieren.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Wir haben gelernt wie man Live-Share funktion auf Visual Studios benuzt,
+damit wir alle zusammen auf Visual Studios programmieren können.
 
 ## Beschreibung
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-* Eine textliche Beschreibung
+
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
@@ -24,8 +25,10 @@ Team Racoon
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Wir konnten unseren funktionierenden Code rechtzeitig fertigstellen, was uns schon ein bisschen stolz gemacht hat.  
 
-👎 und etwas, was nicht gut lief.
+👎 Die Rollenverteilung war nicht ideal. Unser Teamchef war schlecht gewählt, da er nichts gemacht hat,  keine Ahnung hatte was wir machen und nie mitgemacht hat. 
+Wir haben zu viel Zeit mit der Projektdokumentation gebraucht. 
+Unser Teamchef war Winsky
 
 **VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
