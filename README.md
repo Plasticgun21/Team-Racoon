@@ -6,11 +6,11 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Die User Stories wurden erstellt                             |
-|       | 0.0.2   | Testfälle erstellt                                           |
-|       | 0.0.3   | Planen und entscheiden wurde erstellt                        |
-|       | 0.0.4   | Realisieren                                                  |
-
+| 25.10.2022      | 0.0.1   | Die User Stories wurden erstellt                             |
+| 01.11.2022      | 0.0.2   | Testfälle erstellt                                           |
+| 08.11.2022      | 0.0.3   | Planen und entscheiden wurde erstellt                        |
+| 08.11.2022      | 0.0.4   | Realisieren                                                  |
+| 15.11.2022      | 0.0.5   | getestet                                                  |
 
 
 
@@ -19,8 +19,6 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
-
- 
 
 ### 1.2 User Stories
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
@@ -120,4 +118,4 @@ Jeder nur so wie er kann.
 
 ## 6 Auswerten
 
-[Lernbericht](https://github.com/Plasticgun21/Team-Racoon/blob/main/Lernbericht.md)
+Hier ist der Link zum [Lernbericht](https://github.com/Plasticgun21/Team-Racoon/blob/main/Lernbericht.md)
