@@ -61,7 +61,7 @@ Code: Im Code wird eine eingelesene Datei gezeigt.
 👎Der Teamchef war überfordet weil zwei unbedingt programmieren wollten. Also mussten die anderen Dokumentation schreiben, 
 dies war sehr chaotisch wegen der Informationsmangel.
 
-**VBV**: Am anfang sollten alle ruhig sein damit der Teamchef die Aufgaben geben kann.
+**VBV**: Am anfang sollten alle ruhig sein damit der Teamchef die Aufgaben geben kann. Die Dokumentation soll durchgehend aktualisiert werden.
 
 
 
