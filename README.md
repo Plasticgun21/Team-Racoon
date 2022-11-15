@@ -27,13 +27,13 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |    muss   |  funktional  | Als ein Benutzer möchte ich auswählen ob ich mit Deutsch oder Englisch antworte, damit man selber entscheiden kann wie man antworten will |
 | 2  |    kann             | funktional      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
-| 3 | muss |funktional|Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
+| 3 | muss |funktional |Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
 |  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit  man weiss wann man etwas falsches eingeben hat.                     |
 |  5  |        kann      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
 |  6  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler die richtige Antwort gegeben wird, damit es einfacher ist das Wort zu erraten                                   |
 |  7  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  8  |       muss          | funktional     | Als Benutzer möchte ich Wörter automatisch ausgeben lassen, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
-| 9 | muss | funktional | Als benutzer möchte ich auswählen können wie viele Wörter man lernen muss |
+| 9 | muss | funktional | Als Benutzer möchte ich auswählen können wie viele Wörter man lernen muss |
 
 
 
@@ -42,13 +42,13 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programm läuft und wird nach sprache gefragt | englisch | sprache gewählt |
-| 2.1  | Sprache gewählt und schwierigkeit wird gefragt | leicht | schwierigkeit gewählt |
-| 3.1  | Wort wird gefragt | *falsche antwort* | falsch, antwort gespeichert |
-| 4.1  | wort wird gefragt | *falsche antwort* | falsch |
-| 5.1  | wort wird gefragt | *richtige antwort* | richtig, 1 Punkt, 10sec. |
-| 6.1  | wort wird gefragt | *falsche antwort* | flasch, die Antwort ist *richtige antwort*  |
-| 7.1  | Programm läuft| Englisch  | lernsprache gewählt |
+| 1.1  | Programm läuft und wird nach Sprache gefragt | englisch | Sprache gewählt |
+| 2.1  | Sprache gewählt und Schwierigkeit wird gefragt | leicht | Schwierigkeit gewählt |
+| 3.1  | Wort wird gefragt | *falsche Antwort* | falsch, antwort gespeichert |
+| 4.1  | Wort wird gefragt | *falsche Antwort* | falsch |
+| 5.1  | Wort wird gefragt | *richtige Antwort* | richtig, 1 Punkt, 10sec. |
+| 6.1  | Wort wird gefragt | *falsche Antwort* | flasch, die Antwort ist *richtige antwort*  |
+| 7.1  | Programm läuft| Englisch  | Lernsprache gewählt |
 | 8.1  | |  |  |             
 | 9.1  | |  |  |
 
@@ -60,7 +60,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A | 15.11.2022 | Koch | Den benutzer nach der SPrache zum antworten fragen. | 45 |
+| 1.A | 15.11.2022 | Koch | Den Benutzer nach der Sprache zum antworten fragen. | 45 |
 | 2.A | 15.11.2022 | Erismann | Verschiedene Schwierigkeitsgrade für einfachere und schwierigere Wörter.  | 45 |
 | 3.A | 15.11.2022 | Jeanneret Winsky | Falsche antworten speichern und beim nächsten mal nochmal abfragen.  | 45 |
 | 4.A | 15.11.2022 | Warnebold | Bei einer falschen Antwort soll eine Fehlerausgabe erscheinen. | 45 | 
