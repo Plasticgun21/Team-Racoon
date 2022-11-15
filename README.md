@@ -43,14 +43,15 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Programm läuft und wird nach Sprache gefragt | englisch | Sprache gewählt |
-| 2.1  | Sprache gewählt und fragt, ob man mit Deutsch oder Englisch geantwortet wird. | englisch | sprache gewählt |
-| 3.1  | Wort wird gefragt | *falsche Antwort* | falsch, antwort gespeichert |
-| 4.1  | Wort wird gefragt | *falsche Antwort* | falsch |
-| 5.1  | Wort wird gefragt | *richtige Antwort* | richtig, 1 Punkt, 10sec. |
-| 6.1  | Wort wird gefragt | *falsche Antwort* | falsch, die Antwort ist *richtige Antwort*  |
-| 7.1  | Programm läuft| Englisch  | Lernsprache gewählt |
-| 8.1  | wörter speichern?| ja | wörter gespeichert |             
-| 9.1  | wie viele wörter wollen sie lernen?| 10 |10 wörter lernen  |
+| 2.1  | Sprache gewählt und fragt, ob man mit Deutsch oder Englisch geantwortet wird. | englisch | Sprache gewählt |
+| 3.1  | Es wird gefragt, wie viele Wörter abgefragt werden | 10 | Anzahl gewählt |
+| 4.1  | Wort wird gefragt | *falsche Antwort* | falsch, die Antwort ist *richtige Antwort*, wird zur "nichtgekonnt" Liste hinzugefügt |
+| 5.1  | Wort wird gefragt | *richtige Antwort* | richtig |  
+| 6.1  | Du hattest 2 Richig und 8 Falsch. | - | Es geht weiter mit den falschen Wörter in 10 sek |
+| 7.1  | Alle Wörter wurden Abgefragt | - | Es geht weiter mit den falschen Wörter in 10 sek |
+| 8.1  | Wort wird gefragt | *falsche Antwort* | falsch, die Antwort ist *richtige Antwort*, wird zur "nichtgekonnt" Liste hinzugefügt |
+| 9.1  | Wort wird gefragt | *richtige Antwort* | richtig |  
+| 10.1  | Alle Wörter waren richtig | - | Gratulation |  
 
 ### 1.4 Diagramme
 
@@ -105,7 +106,15 @@ Jeder nur so wie er kann.
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |    08.11.2022   |    Stimmt      |   Niclas     |
-| 2.1  |    08.11.2022    |   Stimmt       |   Niclas     |
+| 2.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 3.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 4.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 5.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 6.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 7.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 8.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 9.1  |    15.11.2022    |   Stimmt       |   Niclas     |
+| 10.1  |    15.11.2022    |   Stimmt       |   Niclas     |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
