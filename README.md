@@ -20,7 +20,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 
 ### 1.1 Ihr Projekt
 
-[Projektbeschreibung](https://youtu.be/dQw4w9WgXcQ)
+ 
 
 ### 1.2 User Stories
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
