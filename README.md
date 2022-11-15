@@ -29,7 +29,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | 2  |    kann             | funktional      | Als Benutzer möchte ich verschiedene Schwierigkeitsgrade haben, damit ich nicht mit den schwierigsten Wörter beginnen muss                                 |
 | 3 | muss |funktional |Als Benutzer möchte ich das meine falschen Antworten gespeichert werden, damit ich die Wörter in der nächsten Runde wieder lernen kann.|
 |  4  |    muss             |   funktional   |               Als Benutzer möchte ich das bei einer falschen Eingabe Fehler ausgeben wird, damit  man weiss wann man etwas falsches eingeben hat.                     |
-|  5  |        kann      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gespopt wird, damit ich einen Highscores machen kann.|
+|  5  |        kann      |   funktional   |               Als Benutzer möchte ich das für jede richtige Antwort mir ein Punkt geben wird und die Zeit gestoppt wird, damit ich einen Highscores machen kann.|
 |  6  |     kann            |   funktional   | Als Benutzer möchte ich, dass mir nach einem Fehler die richtige Antwort gegeben wird, damit es einfacher ist das Wort zu erraten                                   |
 |  7  |            muss     |    funktional  |    Als Benutzer möchte zwischen mehreren Sprachen wählen können, damit ich mehrere Sprachen kann lernen.                                |
 |  8  |       muss          | funktional     | Als Benutzer möchte ich Wörter automatisch ausgeben lassen, damit man nicht die ganze Zeit das Textdokument öffnen muss      |
