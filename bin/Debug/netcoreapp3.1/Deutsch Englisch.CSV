@@ -1,4 +1,4 @@
-Deutsch;Englisch;x;x
+Deutsch;Englisch;x;Systemnotitzen
 jetzt;now;;
 heute;today;;
 morgen;tomorrow;;
@@ -8,7 +8,7 @@ Minute;minute;;
 Stunde;hour;;
 Tag;day;;
 Woche;week;;
-Monat;month;;x
+Monat;month;;
 Jahr;year;;
 fr�h;early;;
 sp�t;late;;
@@ -28,19 +28,19 @@ Februar;February;;
 M�rz;March;;
 April;April;;
 Mai;May;;
-Juni;June;;x
+Juni;June;;
 Juli;July;;
-August;August;;x
+August;August;;
 September;September;;
-Oktober;October;;x
+Oktober;October;;
 November;November;;
 Dezember;December;;
 Uhrzeit;time;;
-Wie sp�t ist es?;What time is it?;;x
+Wie sp�t ist es?;What time is it?;;
 Jahrzehnt;decade;;
 Jahrhundert;century;;
 Orte;Locations;;
-Supermarkt;grocery store;;x
+Supermarkt;grocery store;;
 Krankenhaus;hospital;;
 Bank;bank;;
 Hotel;hotel;;
@@ -48,7 +48,7 @@ Bar;bar;;
 Apotheke;pharmacy;;
 Strand;beach;;
 Restaurant;restaurant;;
-Flughafen;airport;;x
+Flughafen;airport;;
 B�ckerei;bakery;;
 Bushaltestelle;bus station;;
 Kirche;church;;
