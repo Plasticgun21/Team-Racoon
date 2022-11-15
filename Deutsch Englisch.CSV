@@ -1,6 +1,6 @@
-Deutsch;Englisch;x;Systemnotitzen
+Deutsch;Englisch;x;x
 jetzt;now;;
-heute;today;;
+heute;today;;x
 morgen;tomorrow;;
 gestern;yesterday;;
 Sekunde;second;;
@@ -8,10 +8,10 @@ Minute;minute;;
 Stunde;hour;;
 Tag;day;;
 Woche;week;;
-Monat;month;;
+Monat;month;;x
 Jahr;year;;
-früh;early;;
-spät;late;;
+frï¿½h;early;;
+spï¿½t;late;;
 Montag;Monday;;
 Dienstag;Tuesday;;
 Mittwoch;Wednesday;;
@@ -19,28 +19,28 @@ Donnerstag;Thursday;;
 Freitag;Friday;;
 Samstag;Saturday;;
 Sonntag;Sunday;;
-Frühling;spring;;
+Frï¿½hling;spring;;
 Sommer;summer;;
 Herbst;fall (amerik.) / autumn (brit.);;
 Winter;winter;;
-Januar;January;;
+Januar;January;;x
 Februar;February;;
-März;March;;
+Mï¿½rz;March;;
 April;April;;
 Mai;May;;
-Juni;June;;
+Juni;June;;x
 Juli;July;;
-August;August;;
+August;August;;x
 September;September;;
-Oktober;October;;
+Oktober;October;;x
 November;November;;
 Dezember;December;;
 Uhrzeit;time;;
-Wie spät ist es?;What time is it?;;
+Wie spï¿½t ist es?;What time is it?;;x
 Jahrzehnt;decade;;
 Jahrhundert;century;;
 Orte;Locations;;
-Supermarkt;grocery store;;
+Supermarkt;grocery store;;x
 Krankenhaus;hospital;;
 Bank;bank;;
 Hotel;hotel;;
@@ -48,8 +48,8 @@ Bar;bar;;
 Apotheke;pharmacy;;
 Strand;beach;;
 Restaurant;restaurant;;
-Flughafen;airport;;
-Bäckerei;bakery;;
+Flughafen;airport;;x
+Bï¿½ckerei;bakery;;
 Bushaltestelle;bus station;;
 Kirche;church;;
 Kino;cinema;;

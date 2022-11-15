@@ -20,6 +20,13 @@ namespace Voci_Trainer
 
         static void Selector()
         {
+            //string DeutschEng = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV";
+            //string DeutschFranz = @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV";
+
+            string DeutschEng = "Deutsch Englisch.CSV";
+            string DeutschFranz = "Deutsch Französisch.CSV";
+
+
             Console.WriteLine("Wollen sie französische Wörter oder englische Wörter lernen?");
             string Input = Console.ReadLine();
 
@@ -32,13 +39,13 @@ namespace Voci_Trainer
                 if (string.Equals("Englisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(1,"Englisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
+                    Abfragen(1,"Englisch", DeutschEng);
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(2,"Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Englisch.CSV");
+                    Abfragen(2,"Deutsch", DeutschEng);
                 }
                 else
                 {
@@ -55,13 +62,13 @@ namespace Voci_Trainer
                 if (string.Equals("Französisch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(1,"Französisch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
+                    Abfragen(1,"Französisch", DeutschFranz);
 
                 }
                 else if (string.Equals("Deutsch", Input, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("Worked!");
-                    Abfragen(2,"Deutsch", @"C:\Users\nicla\Source\Repos\Team-Racoon\Excel\Deutsch Französisch.CSV");
+                    Abfragen(2,"Deutsch", DeutschFranz);
                 }
                 else
                 {
