@@ -113,7 +113,6 @@ namespace Voci_Trainer
                 Markieren[Count] = Temp[2];
                 System[Count] = Temp[3];
                 Count++;
-
             }
 
             foreach (string z in EnglischFranz)
