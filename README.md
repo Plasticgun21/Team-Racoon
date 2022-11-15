@@ -115,7 +115,7 @@ Jeder nur so wie er kann.
 | 8.1  |    15.11.2022    |   Stimmt       |   Niclas     |
 | 9.1  |    15.11.2022    |   Stimmt       |   Niclas     |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+ Fazit: Das Programm funktioniert reibungslos und hat keine Probleme. Dieser Code kann als Produkt verwendet werden.
 
 
 ## 6 Auswerten
