@@ -52,8 +52,7 @@ namespace Beispiel_Code
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
-Im Gif sieht man gut
+ 
 
 # Reflexion zum Arbeitsprozess
 
