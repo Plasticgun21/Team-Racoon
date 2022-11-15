@@ -62,7 +62,7 @@ Jeanneret Winsky, Erismann, Müller, Warnebold, Koch
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A | 15.11.2022 | Koch | Den benutzer nach der SPrache zum antworten fragen. | 45 |
 | 2.A | 15.11.2022 | Erismann | Verschiedene Schwierigkeitsgrade für einfachere und schwierigere Wörter.  | 45 |
-| 3.A | 15.11.2022 | Jeanneret Winsky | Falsche antworten speichern und beim nächsten mak nochmal abfragen.  | 45 |
+| 3.A | 15.11.2022 | Jeanneret Winsky | Falsche antworten speichern und beim nächsten mal nochmal abfragen.  | 45 |
 | 4.A | 15.11.2022 | Warnebold | Bei einer falschen Antwort soll eine Fehlerausgabe erscheinen. | 45 | 
 | 5.A | 15.11.2022 | Müller | Eine Auswahl bei der man aussuchen kann ob man auf Deutshc oder Englisch antwortet. | 45 | 
 | 6.A | 15.11.2022 | Warnebold | Bei fehleingaben soll ein Tipp für das nächste mal gegeben werden | 45 | 
