@@ -8,7 +8,7 @@ In unserem Projekt mussten wir einen Vocitrainer programmieren.
 Wir haben gelernt wie man Dateien ein und auslesen kann. Dazu habe wir auch Live-Share angewendet um gleichzeitig am Code arbeiten zu können. 
 
 ## Beschreibung
-Mit dem Einlesen kann man Datei ohne grossen Aufwand in ei
+Mit dem Einlesen kann man Datei ohne grossen Aufwand in ein Programm einfügen und benutzen. So kann man den Benutzer Wörter abfragen und diese mit den richtigen Wörtern vergleichen. Wenn man eine Datei eingelesen hat kann man Wörter hinzufügen oder löschen, und sie werden automatisch gestrichen.
 
 
 ```CSHARP
@@ -64,4 +64,3 @@ Im Gif sieht man gut
 👎Unser Teamchef war Jeanneret Winsky
 
 **VBV**: Am Anfang richtig besprechen wer ein guter und zuverlässiger Teamchef ist. Die Projektdokumentation muss laufend geändert werden.
-Wir müssen das nächste schauen wer 
